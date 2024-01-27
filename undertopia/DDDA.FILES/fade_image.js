@@ -14,27 +14,27 @@ menua.filters.alpha.opacity="80";
 
 // The Central Randomizer
 
-¡¡¡¡rnd.today=new Date();
+ã€€ã€€rnd.today=new Date();
 
-¡¡¡¡rnd.seed=rnd.today.getTime();
-
-
-
-¡¡¡¡function rnd() {
-
-¡¡¡¡rnd.seed = (rnd.seed*9301+49297) % 233280;
-
-¡¡¡¡return rnd.seed/(233280.0);
-
-¡¡¡¡};
+ã€€ã€€rnd.seed=rnd.today.getTime();
 
 
 
-¡¡¡¡function rand(number) {
+ã€€ã€€function rnd() {
 
-¡¡¡¡return Math.ceil(rnd()*number);
+ã€€ã€€rnd.seed = (rnd.seed*9301+49297) % 233280;
 
-¡¡¡¡}; 
+ã€€ã€€return rnd.seed/(233280.0);
+
+ã€€ã€€};
+
+
+
+ã€€ã€€function rand(number) {
+
+ã€€ã€€return Math.ceil(rnd()*number);
+
+ã€€ã€€}; 
 
 
 
