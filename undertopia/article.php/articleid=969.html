@@ -1,0 +1,884 @@
+<html>
+<head>
+<title>最深的地下城 UNDERTOPIA - Sword World RPG——基本规则</title>
+<meta name="keywords" content="Sword World RPG——基本规则">
+<meta content="" name="description">
+<meta name="Keywords" content="dungeon,dragon,dnd,adnd,d&d,ad&d,trpg,pnp,rpg,game,yy,ddda,undertopia,龙与地下城,角色扮演,纸上角色扮演,纸笔,桌面,游戏,最深的地下城,奇幻,魔法,龙枪,被遗忘国度,异域,planescape,英雄,冒险,资料,魔兽,灰鹰,无冬,博德,博得,辐射,fallout,黑岛,欧美">
+<meta name="description" content="Undertopia - 最深的地下城 - 龙与地下城及桌面游戏中文资料网 - NTRPG MEMBER SITE" >
+
+
+<meta http-equiv="content-type" content="text/html; charset=gb2312">
+
+<SCRIPT language=JavaScript src="../DDDA.FILES/fade_image.js"></SCRIPT>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+
+ <style type="text/css">
+<!--
+td {
+        font-family: "Arial", "身妾"; font-size: 12px; line-height: 17px; white-space: normal;
+}
+/* default link colors */
+a {
+	color: #FFFF99;
+	background-color: transparent;
+	TEXT-DECORATION:none;
+	
+}
+a:visited {
+	color: #FFFF99;
+	background-color: transparent;
+	TEXT-DECORATION:none;
+	
+}
+a:hover {
+	color: #D50000;
+	background-color: transparent;
+                text-decoration: underline
+	
+}
+
+/* default page elements */
+p, li, dl {
+  text-align: left;
+}
+
+input,textarea{
+	font-family: "Tahoma", "MS Shell Dlg", "宋体";
+	font-size : 12px;
+	font-weight : normal;
+	line-height: 18px;
+}
+
+/* buttons */
+.button {
+        font-family: "Tahoma", "MS Shell Dlg", "宋体";
+        font-size : 12px;
+        font-weight : bold;
+}
+
+.text {
+	color : #000000;
+	font-family: "Tahoma", "MS Shell Dlg", "宋体";
+	font-size : 12px;
+	font-weight : normal;
+	line-height: 18px;
+}
+select {
+	color : #000000;
+	font-family: "Tahoma", "MS Shell Dlg", "宋体";
+	font-size : 12px;
+	font-weight : normal;
+	line-height: 18px;
+}
+.firstalt {
+                background-color: #EEEEEE;
+}
+.secondalt {
+}
+.bigfont {
+                    font-family: "Tahoma", "MS Shell Dlg", "宋体";
+                    font-size: 16px;
+                    font-weight : bolder;
+}
+.normalfont {
+                    font-family: Tahoma,MS Shell Dlg,宋体;
+                    font-size: 12px;
+}
+.middlefont {
+                    font-family: Tahoma,MS Shell Dlg,宋体;
+                    font-size: 11px;
+}
+.smallfont {
+                    font-family: Tahoma,MS Shell Dlg,宋体;
+                    font-size: 9px;
+}
+.arrow {
+                    font-family: "Tahoma", "MS Shell Dlg", "宋体";
+                    font-size: 9px;
+}
+#content a:link,#content a:active,#content a:visited {
+                text-decoration: underline;
+                color : #FF6600;
+}
+#content a:hover {
+                text-decoration: none;
+                color : #FF6600;
+}
+.content {
+	font-family: "Tahoma", "MS Shell Dlg", "宋体";
+	font-size: 14px;
+	line-height: 130%;
+	color: #990000;
+}
+
+.subhead {
+                    font-family: Tahoma,MS Shell Dlg,宋体;
+                    font-size: 14px;
+                    color: #FF6600;
+}
+
+#cattext {
+        text-decoration: none;
+        color: #000000;
+        font-family: Tahoma,MS Shell Dlg,宋体;
+        font-size : 12px;
+}
+
+#tbh {
+        text-decoration: none;
+        color: #000000;
+        font-family: Tahoma,MS Shell Dlg,宋体;
+        font-size : 12px;
+}
+#tbh A:link {COLOR: #FFFFFF; TEXT-DECORATION: none}
+#tbh  A:visited {COLOR: #FFFFFF; TEXT-DECORATION: none}
+#tbh  A:active {COLOR: #FFFFFF; TEXT-DECORATION: none}
+#tbh  A:hover {COLOR: #FFFFFF; TEXT-DECORATION: none}
+
+#nav { background-color :#303958 }
+#nav A{ text-decoration: none; color: #FFFFFF; TEXT-DECORATION: none}
+
+#root A{ text-decoration: none; color: #000000;}
+#cat A{ text-decoration: none; color: #000000;}
+
+#head { color: #000000; background-color :}
+#head A{ text-decoration: none; color: #FFFFFF;}
+
+#cattitle A:link {COLOR: #000000; TEXT-DECORATION: none}
+#cattitle A:visited {COLOR: #000000; TEXT-DECORATION: none}
+#cattitle A:active {COLOR: #000000; TEXT-DECORATION: none}
+#cattitle A:hover {COLOR: #000000; TEXT-DECORATION: none}
+
+
+/* generic body */
+body {
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, Verdana, Sans-serif;
+  font-size: 80%;
+  color: #000;
+  background-color: #fff;
+  background-position: top left;
+  background-attachment: scroll;
+  background-image: url("http://www.ntrpg.org/yy/undertopia/images/bg.gif");
+}
+
+
+.topnav a {
+	font-size: 12px;
+	color: #000000;
+}
+.topnav a:link {color: #000000; text-decoration: none}
+.topnav a:visited {color: #000000; text-decoration: none}
+.topnav a:active {color: #000000; text-decoration: none}
+.topnav a:hover {color: #FFFFFF; text-decoration: none}
+
+-->
+</style>
+
+</head>
+<body onLoad="MM_preloadImages(\'imageS/Left_NB_l1C.gif\',\'imageS/Left_NB_tophomec.gif\',\'imageS/Left_NB_l2C.gif\',\'imageS/Left_NB_l3C.gif\',\'imageS/Left_NB_l4C.gif\',\'imageS/Left_NB_l5C.gif\',\'imageS/Left_NB_l6C.gif\',\'imageS/Left_NB_l7C.gif\',\'imageS/Left_NB_l8C.gif\',\'imageS/Left_NB_l9C.gif\',\'imageS/Left_NB_l10.gif\')">
+ <script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"><center>
+<!-- start logo -->
+<table width="1007" height="321" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="1007" height="321" align="left" valign="top" background="../images/bghead1.jpg" id=headbg> 
+      <table width="1007" height="321" border="0" cellspacing="0"cellpadding="0">
+          <tr> 
+          <td width="10%" height="186" align="center" valign="top">
+<div id="Layer1" style="position:absolute; width:74px; height:70px; z-index:1; left: 8px; top: 227px;"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  <td><img src="../images/clock.gif" width="64" height="68"></td>
+                </tr>
+              </table>
+            </div>
+            <div id="Layer2" style="position:absolute; width:69px; height:79px; z-index:2; left: 15px; top: 71px;"> 
+              <p><a href="javascript:window.external.addFavorite('http://www.ntrpg.org/yy/','最深的地下城')"><font color="#FFCC00" size="2">收藏本站</font></a></p>
+              <p><a href="../../index.html"><font color="#FFCC00" size="2">返回首页</font></a></p>
+              <p><a href="http://www.dndfans.org/bbs/index.php?s=8bf2ac1b6196af7012278ed0f4fd1447&showforum=18"><font color="#FFCC00" size="2">访问论坛</font></a></p>
+            </div>
+            <div id="Layer3" style="position:absolute; width:91px; height:42px; z-index:3; left: -3px; top: 169px;"><font color="#FF9900" size="2">地下城中有<Br>
+              <b>54</b><Br>
+              位冒险者 </font></div></td>
+          <td width="9%" height="186" align="left" valign="top">&nbsp;</td>
+          <td width="9%" height="186" align="left" valign="top">&nbsp;</td>
+          <td width="23%" height="186" align="left" valign="top">&nbsp;</td>
+          <td width="13%" height="186" align="left" valign="top">&nbsp;</td>
+          <td width="19%" height="186" align="left" valign="top">&nbsp;</td>
+            
+          <td width="17%" height="186" align="left" valign="bottom"><img src="../images/login.gif" width="109" height="156" border="0" usemap="#Map4" style="FILTER: alpha(opacity=80)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></td>
+        </tr>
+        <tr> 
+            <td height="117" align="left" valign="top">&nbsp;</td>
+            
+          <td height="117" align="left" valign="bottom"><a href="mailto:dexter.yy@gmail.com"><img src="../images/eye.gif" alt="一束奇特的神经纤维，你可以通过它直接向城主传送信息" width="54" height="91" border="0" style="FILTER: alpha(opacity=70)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+            <td height="117" align="right" valign="bottom"><a href="../contribute.php.html"><img src="../images/bag.gif" alt="把你的文章交给Altar of Article的祭司，通过审核后就能收录到地下城里……" width="55" height="44" border="0"style="FILTER: alpha(opacity=70)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+            
+          <td height="117" align="left" valign="bottom"><img src="../images/mimirtable.gif" width="209" height="61" border="0" usemap="#Map" href="Mimir3" style="FILTER: alpha(opacity=70)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></td>
+            
+          <td height="117" align="left" valign="bottom">&nbsp;</td>
+            <td height="117" align="left" valign="bottom">&nbsp;</td>
+            
+          <td rowspan="2" align="right" valign="bottom"><img src="../images/searchgolem.gif" width="179" height="122" border="0" usemap="#Map2" style="FILTER: alpha(opacity=90)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></td>
+        </tr>
+        <tr> 
+          <td height="21" align="left" valign="top">&nbsp;</td>
+          <td height="21" align="left" valign="bottom">&nbsp;</td>
+          <td height="21" colspan="2" align="left" valign="bottom"><font color="#FFCC00"size="2"><strong> </strong></font></td>
+          <td height="21" align="left" valign="bottom">&nbsp;</td>
+          <td height="21" align="left" valign="bottom">&nbsp;</td>
+        </tr>
+      </table ></td>
+  </tr>
+</table>
+  <map name="Map">
+    
+  <area shape="circle" coords="40,30,28" href="../sort.php/sortid=120.html" target="lastupdate" alt="黄色Mimir：地下城旅行指南">
+    
+  <area shape="circle" coords="102,27,25" href="../search.php/action=lastupdate.html" target="sitemap" alt="红色Mimir：查询最近更新">
+    
+  <area shape="circle" coords="163,33,23" href="../sort.php/sortid=121.html" target="DOWNLOAD" alt="蓝色Mimir：它提供本站的FAQ">
+</map>
+<map name="Map3">
+  <area shape="circle" coords="66,44,43" href="../register.php.html" target="register" alt="眼魔书记，负责办理居民登记业务">
+  </map>
+<map name="Map2">
+  <area shape="rect" coords="37,0,174,93" href="../search.php.html" target="search" alt="提供自动搜索服务的密银魔像">
+</map>
+<map name="Map4">
+  <area shape="circle" coords="66,45,42" href="../register.php.html" target="register" alt="眼魔书记，负责办理居民登记业务">
+  <area shape="rect" coords="35,83,97,153" href="../usercp.php.html" target="usercp" alt="《Book of Dark Denizens》，你可以使用它修改个人资料">
+</map>
+
+
+<!-- end logo -->
+
+
+<table width="1007" border="0" cellspacing="0"cellpadding="0" >
+  <tr> 
+    <td height="2354" align="center" valign="top"> 
+      <table width="100%" border="0" cellspacing="0"cellpadding="0">
+        <tr align="left" valign="top"> 
+              
+          <td width="8%" height="2303" rowspan="2" bordercolor="0"border="0" cellspacing="0"cellpadding="0"> 
+            <table width="18%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><img src="../images/Left_NB_tophead.gif" width="180" height="60"></td>
+  </tr>
+  <tr> 
+    <td height="15"><img src="../images/Left_NB_topwelcome.gif" width="180" height="72"></td>
+  </tr>
+  <tr> 
+    <td height="15"><img src="../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td><a href="../index.php.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image63','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_tophomec.gif',1)"><img src="../images/Left_NB_tophome.jpg" alt="首页：公告、新闻、最近更新" name="Image63" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><a href="../sort.php/sortid=7.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image64','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l1C.gif',1)"><img src="../images/Left_NB_l1.gif" alt="新手入门：TRPG简介，龙与地下城基础知识，奇幻文学相关" name="Image64" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><img src="../images/Left_NB_top.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td background="../images/Left_NB_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td height="24" align="center"><a href="../sort.php/sortid=8.html"><img src="../images/Left_NB_l1-1.gif" width="180" height="26" border="0" style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this); ></a></td>
+        </tr>
+        <tr> 
+          <td height="24" align="center"><a href="../sort.php/sortid=9.html"><img src="../images/Left_NB_l1-2.gif" width="180" height="26" border="0" style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><img src="../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td><a href="../sort.php/sortid=10.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image65','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l2C.gif',1)"><img src="../images/Left_NB_l2.gif" alt="TRPG玩家交流：留言板、跑团信息、战报" name="Image65" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><img src="../images/Left_NB_top.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td height="69" background="../images/Left_NB_bg.gif"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td height="19"><a href="http://bbs.ntrpg.org/index.php" target=_blank><img src="../images/Left_NB_l2_1.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=12.html"><img src="../images/Left_NB_l2_2.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=13.html"><img src="../images/Left_NB_l2_3.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td height="16"><a href="../sort.php/sortid=14.html"><img src="../images/Left_NB_l2_4.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><img src="../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td><a href="../sort.php/sortid=15.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image66','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l3C.gif',1)"><img src="../images/Left_NB_l3.gif" alt="龙与地下城资料：游戏规则、角色扮演参考资料" name="Image66" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><img src="../images/Left_NB_top.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td background="../images/Left_NB_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><a href="../sort.php/sortid=16.html"><img src="../images/Left_NB_l3_1.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=17.html"><img src="../images/Left_NB_l3_2.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=18.html"><img src="../images/Left_NB_l3_3.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=19.html"><img src="../images/Left_NB_l3_4.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=20.html"><img src="../images/Left_NB_l3_5.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=21.html"><img src="../images/Left_NB_l3_6.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><img src="../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td><a href="../sort.php/sortid=22.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image67','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l4C.gif',1)"><img src="../images/Left_NB_l4.gif" alt="龙与地下城资料：游戏背景、世界设定" name="Image67" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><img src="../images/Left_NB_top.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td background="../images/Left_NB_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><a href="../sort.php/sortid=23.html"><img src="../images/Left_NB_l4_1.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=24.html"><img src="../images/Left_NB_l4_2.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=25.html"><img src="../images/Left_NB_l4_3.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=26.html"><img src="../images/Left_NB_l4_4.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><img src="../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td><a href="../sort.php/sortid=27.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image68','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l5C.gif',1)"><img src="../images/Left_NB_l5.gif" alt="原创文章" name="Image68" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><img src="../images/Left_NB_top.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td background="../images/Left_NB_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><a href="../sort.php/sortid=30.html"><img src="../images/Left_NB_l5_1.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=29.html"><img src="../images/Left_NB_l5_2.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=28.html"><img src="../images/Left_NB_l5_3.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><img src="../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td><a href="../sort.php/sortid=31.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image69','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l6C.gif',1)"><img src="../images/Left_NB_l6.gif" alt="龙与地下城资料：神祗、信仰" name="Image69" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><img src="../images/Left_NB_top.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td background="../images/Left_NB_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><a href="../sort.php/sortid=32.html"><img src="../images/Left_NB_l6_1.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=33.html"><img src="../images/Left_NB_l6_2.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><img src="../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td><a href="../sort.php/sortid=34.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image70','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l7C.gif',1)"><img src="../images/Left_NB_l7.jpg" alt="龙与地下城资料：种族、怪物、奇幻生物" name="Image70" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><img src="../images/Left_NB_top.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td background="../images/Left_NB_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><a href="../sort.php/sortid=35.html"><img src="../images/Left_NB_l7_1.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=36.html"><img src="../images/Left_NB_l7_2.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><img src="../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td><a href="../sort.php/sortid=122.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('L9','','http://www.ntrpg.org/yy/undertopia/images/L9C.gif',1)"><img src="../images/L9.jpg" alt="实体桌面游戏专区" name="L9" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><a href="../sort.php/sortid=37.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image71','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l8C.gif',1)"><img src="../images/Left_NB_l8.gif" alt="TRPG资料：DND以外的TRPG游戏" name="Image71" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><img src="../images/Left_NB_top.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td background="../images/Left_NB_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><a href="../sort.php/sortid=38.html"><img src="../images/Left_NB_l8_1.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=39.html"><img src="../images/Left_NB_l8_2.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=65.html"><img src="../images/Left_NB_l8_8.gif" width="180" height="26" border="0" style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=40.html"><img src="../images/Left_NB_l8_3.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=42.html"><img src="../images/Left_NB_l8_4.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=41.html"><img src="../images/Left_NB_l8_5.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=66.html"><img src="../images/Left_NB_l8_9.gif" width="180" height="26" border="0" style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=43.html"><img src="../images/Left_NB_l8_6.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../sort.php/sortid=44.html"><img src="../images/Left_NB_l8_7.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><img src="../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td><a href="../sort.php/sortid=45.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image72','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l9C.gif',1)"><img src="../images/Left_NB_l9.gif" alt="相关资源下载" name="Image72" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><a href="../sort.php/sortid=119.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image73','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l10c.gif',1)"><img src="../images/Left_NB_l10.gif" alt="网络资源，推荐链接" name="Image73" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><img src="../images/Left_NB_top.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td align="center" background="../images/Left_NB_bg.gif"><table width="75%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center">
+		  <script type="text/javascript"><!--
+google_ad_client = "pub-3806100801361928";
+google_ad_width = 120;
+google_ad_height = 240;
+google_ad_format = "120x240_as_rimg";
+google_cpa_choice = "CAAQw8P8zwEaCCkfm-KkreZAKKG_93M";
+//--></script>
+<script type="text/javascript" src="">
+</script>
+		  </td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td><img src="../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td height="59" align="center" valign="middle" background="../images/Left_NB_LOGO.jpg"> 
+      <table width="70%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td height="19" align="center" valign="top"><img src="../images/Left_NB_SITELOGO.gif" width="104" height="17"></td>
+        </tr>
+        <tr> 
+          <td align="center" valign="middle"><img src="../images/DDDA_LOGO.gif" width="88" height="31"></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><a href="../../../sitering/index.html" target=_blank><img src="../images/left_NB_NTRlogo.gif" width="180" height="118"border="0"></td>
+  </tr>
+  <tr> 
+    <td><img src="../images/Left_NB_trail.gif" width="180" height="156"></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+</table>
+ </td>
+
+          <td width="75%" height="317"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="2%" height="293" background="../images/Board_left.gif">&nbsp;</td>
+                <td height="175" align="center" background="../images/Board_swtrpg_bg.gif" bgcolor="#000000" > 
+				
+                
+				
+				<table width="94%" border="0" cellspacing="0" cellpadding="0">
+                          <tr align="center"  valign="top"> 
+                            <td valign="top" ><img src="../images/Board_swtrpg.jpg" width="450" height="381"></td>
+                          </tr>
+                          <tr align="center"  valign="top"> 
+                            <td height="31" valign="middle" ><font color="#333300"><strong>Sword 
+                              World系统——日式TRPG</strong></font></td>
+                          </tr>
+                        </table>
+                    
+                  <p>&nbsp;</p></td>
+				  
+                <td width="2%" background="../images/Board_right.gif">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td height="24"><img src="../images/Board_leftbase.gif" width="25" height="23"></td>
+                <td background="../images/Board_base.gif">&nbsp;</td>
+                <td bgcolor="#000000"><img src="../images/Board_rightbase.gif" width="20" height="24"></td>
+              </tr>
+            </table></td>
+
+          <td width="17%" align="right" background="../images/right_nb_bg.jpg"cellspacing="0" cellpadding="0"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="center" background="../images/right_search_bg.jpg">
+				
+				<table width="70%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td height="90" align="center" valign="middle"> <form method="get" action="http://www.ntrpg.org/yy/undertopia/search.php">
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                            <tr> 
+                              <td align="center"> <input type="text" name="keyword" size="15" maxlength="20"> 
+                                <BR> <BR> <input type="submit" value="搜索" class="button" > 
+                                <BR> <BR> <select name="type">
+                                  <option value="all" selected>按内容搜索</option>
+                                  <option value="title">按名字搜索</option>
+                                </select> <input type="hidden" name="ordertype" value="date"> 
+                                <input type="hidden" name="action" value="result"> 
+                              </td>
+                            </tr>
+                          </table>
+                        </form></td>
+                    </tr>
+                  </table>
+				  
+				</td>
+              </tr>
+              <tr>
+                <td background="../images/right_search_bg.jpg"><img src="../images/right_search_base.gif" width="180" height="34"></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="125" align="center" valign="top"><font color="#FFCC00"><strong>居民专用通道</strong></font><BR>
+                  <form method="post" action="http://www.ntrpg.org/yy/undertopia/member.php">
+                    <table width="78%" border="0" cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td width="49%" height="29"><font size="2"><span class="normalfont">你的姓名？
+                          <input type="text" size="9"name="username">
+                          </span></font></td>
+                      </tr>
+                      <tr> 
+                        <td><font size="2"><span class="normalfont">报出口令！
+                          <input type="password"size="9" name="password">
+                          </span></font></td>
+                      </tr>
+                    </table>
+                    <br>
+				  <input type="hidden" name="url" value="/yy/undertopia/article.php?articleid=969">
+                          <input type="hidden" name="action" value="login">
+                          <input type="submit" value=" 进入 " class="button">
+                    <input type="reset" value=" 重置 " class="button">
+						  
+</form></td>
+              </tr>
+            </table> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                
+              </tr>
+            </table>
+          </td>
+
+
+</tr>
+
+
+<tr align="left" valign="top"> 
+          <td height="1959" colspan="2"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="10%" height="235" valign="top" background="../images/article_bg_left2.gif"><img src="../images/article_bg_lefttop2.gif" width="81" height="149"></td>
+                <td width="87%" valign="top" background="../images/articleBG.jpg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td height="77" align="center" valign="middle">　 
+                        <table width="96%" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td width="2%" background="../images/BAR1.gif"><img src="../images/BAR1_LEFT.gif" width="17" height="38"></td>
+                            <td width="95%" background="../images/BAR1.gif"><font color="#FFFF00"><table width="100%" border="0" cellspacing="4" cellpadding="0" >
+  <tr>
+    <td><a href="../index.php.html"><font color="#FFFF00">最深的地下城 UNDERTOPIA</font></a><font color="#FFFF00"> / <a href="../sort.php/sortid=37.html">异界之门</a> / <a href="../sort.php/sortid=40.html">剑世界</a> / Sword World RPG——基本规则</font>
+    </td>
+  </tr>
+</table></font></td>
+                            <td width="3%" background="../images/BAR1.gif"><img src="../images/BAR1_RIGHT.gif" width="17" height="38"></td>
+                          </tr>
+                        </table>
+					  </td>
+                    </tr>
+                    <tr> 
+                      <td height="109" align="center"> 
+                        <table width="66%" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td colspan="3"><img src="../images/article_title_top.gif" width="470" height="34"></td>
+                          </tr>
+                          <tr> 
+                            <td width="11%" align="left"><img src="../images/article_title_left.gif" width="43" height="31"></td>
+                            <td width="81%" align="center"><font size="4" class=bigfont><b>Sword World RPG——基本规则</b></font></td>
+                            <td width="8%" align="right"><img src="../images/article_title_right.gif" width="40" height="31"></td>
+                          </tr>
+                          <tr> 
+                            <td colspan="3"><img src="../images/article_title_base.gif" width="470" height="33"></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                    <tr>
+                      <td height="49" align="center" valign="bottom">
+<table width="96%" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td width="2%" height="38" background="../images/BAR1.gif"><img src="../images/BAR1_LEFT.gif" width="17" height="38"></td>
+                            <td width="95%" align="center" background="../images/BAR1.gif"><span class="normalfont"><font color="#FFFFFF" size="2">日期：2004-08-26</font> 
+                              <font color="#FFFFFF" size="2"> 　作者：Oyuki 
+                              　来自：台大电机MaxwellBBS TRPG板 　点击: 2620</font></span></td>
+                            <td width="3%" background="../images/BAR1.gif"><img src="../images/BAR1_RIGHT.gif" width="17" height="38"></td>
+                          </tr>
+                        </table>
+                        
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td width="3%" rowspan="3" valign="top" background="../images/article_bg_right.gif">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td height="1568" background="../images/article_bg_left2.gif">&nbsp;</td>
+                <td width="87%" align="center" valign="top" background="../images/articleBG.jpg"><p>&nbsp;</p>
+                  <table width="94%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td height="63" valign="top"> 
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td height="31" valign="top"><b>Sword World Rules Part A</b></td>
+                          </tr>
+                          <tr>
+                            <td height="13" valign="top"><PRE><FONT size=3><SPAN lang=EN-US><FONT face=宋体 size=2><SPAN style="mso-spacerun: yes"><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN><STRONG><FONT size=4>ソード</FONT></STRONG></FONT></SPAN><STRONG><FONT size=4><SPAN lang=EN-US style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'MS Mincho'; mso-bidi-font-family: 'MS Mincho'">&#8231;</SPAN><SPAN style="FONT-SIZE: 10.5pt"><FONT face=宋体>ワールドＲＰＧ<SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>基本规则<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>Part.1</SPAN></FONT></SPAN></FONT></STRONG></PRE><PRE><STRONG><FONT size=4><SPAN style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN lang=EN-US></SPAN></FONT></SPAN></FONT></STRONG>&nbsp;</PRE><PRE><STRONG><FONT size=4><SPAN style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN lang=EN-US><o:p></o:p></SPAN></FONT></SPAN></FONT></STRONG>&nbsp;</PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体>Ⅰ、世界设定<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【历史】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>第一期：神话时代<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>第二期：魔法时代（古魔法王国期）<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>第三期：剑的时代<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【币制】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>使用银币（ガメル）交易为主，一天的生活费基本上以十银币为准。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【时间】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>一天二十四小时，一个月有三十天，一年十二个月。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【工会】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>在这世界中所有的行业都有工会，若要学会或使用相关技能则一般皆<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>需加入公会及取得工会对此行动的同意才行。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体>Ⅱ、角色<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【能力值】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>器用度：手部的操作能力，使用器具的能力等。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>敏捷度：身体整体性的协调以及动作的流畅等。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>知<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>力：知力。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>筋<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>力：肉体力量的大小程度。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>生命力：肉体所能承受的损伤程度。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>精神力：意志的强轫性。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【种族】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>人类：略。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>矮人：略。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>草原民族：GRASS RUNNER，妖精族的一员。具有很强的好奇心，身高<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>约一公尺左右。一般是以独居或家庭为单位生活，没有部<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>族的观念并且也没有信奉神明的习惯。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> <SPAN style="mso-spacerun: yes">&nbsp;</SPAN>精灵：略。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>半精灵：略。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体>Ⅲ、技能<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【分类】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>技能主要是分成冒险者技能和一般技能两大类。游戏中并没有严格的<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>职业设定，只要具有相关的技能就可以使用该项能力。另冒险者等级<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>是以该角色所持有之冒险者技能中等级最高者认定。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>冒险者技能：魔术师<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>精灵使<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>司祭<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>战士<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>盗贼<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>流浪者<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>贤者<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>吟游诗人<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>一般技能：商人<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>农夫<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>渔师<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>水夫<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>工匠<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>……<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【一般技能】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>商人：价格判定、商谈。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>工匠：制造、价格判定（相关商品）。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>医疗师：急救、医疗、药学。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【成功判定】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>在判定行动是否成功时丢出２Ｄ然后再加上相关的技能等级及能力追<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>加值之后（称为达成值），视是否能超过「目标值」（＝ＧＭ的２Ｄ<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>＋行动的难易度）来决定行动是否能够成功。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体>Ⅳ、战斗<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【回合】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>战斗时的每回合是十分钟。决定行动的次序时是以知力为准（知力高<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>者晚宣告）采取行动之时是以敏捷度为准，敏捷度高者可以早行动或<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>延至当回合之最后行动。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【行动】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>每回合时基本上可以采取如下所列的行动（择一）。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>全力移动时：●装备或卸下并收好单手的武器。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>※全力移动时之距离＝敏捷度×３（单位公尺）<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>回避时得到－４的修正（以下简称－４）<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>通常移动时：●装备或卸下并收好单手的武器。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>●捡起地上的物品。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>●重新装备单手的武器。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>●攻击特定的敌人。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>※移动距离＝敏捷度×１<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>停止时：●通常移动时所能采取的行动。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>●施展法术。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>●脱离接战状态（在没有队友掩护的情况下回避率－４）。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>●趴下。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>●站立。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>※移动距离＝三公尺内。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体>Ⅴ、武器战斗<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【战斗之前】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>有时会遇到「不知道那是什么」的怪物，若此时有人会用「贤者」技<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>能则判别怪物真相／能力的机会会比较高。（２Ｄ＋贤者等级＋知力<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>追加值与怪物的知名度做比较）<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【不意讨】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>战斗之前视情况需由玩者丢出「２Ｄ＋流浪者等级＋智力追加值」报<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>给ＧＭ以决定是否可以偷袭怪物或被怪物偷袭。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【武器战斗技能】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>使用武器战斗时用来做为判定的基准是战士技能等级；盗贼技能也可<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>以用来做为代替，但（使用盗贼技能时）武器防具之筋力值皆不得超<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>过角色筋力值之半数。另流浪者技能若欲在战斗时使用时仅限于在使<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>用投射武器之时。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【装备武器防具时筋力值之限制】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>武器及防具的「等级」（筋力值）不得超过角色之筋力值。一般武器<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>之打击力（使用在转换表时之「初始值」）等于其必要筋力值。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【角色在战斗时之能力】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>攻击力＝战士等级＋器用度追加值。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>回避力＝战士等级＋敏捷度追加值。（使用盾牌中的话再加１）<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>※但不具战士（或可代替之技能时）不得使用追加值。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【投射武器之限制】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>弓箭枪（十字弓）发射后需隔一回合进行整备才能再次发射。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>投石器<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>SLING 发射后需整备两个回合才能再次发射，并且因其操作<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>需使用两手，另一手亦不得装备物品。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【转换表】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>☆转换表在此系统中经常使用，请务必熟悉其使用方式。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>在角色的攻击已命中怪物时之伤害点数计算方法－<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>１、在转换表上面最上方的栏中找出符合自己使用武器之「打击力」<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>的那一栏（最好先行抄下，因为会经常用到），此例中为１０。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>２、玩者丢２Ｄ。（设为８，没有CRITICAL，以下简称ＣＲ）<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>３、在转换表上方标「１０」，左方２Ｄ处标８的地方找到「４」这<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>个数字。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>４、加上筋力追加值（设为１）。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>５、加上冒险者等级（设为２）得到４＋１＋２＝７。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>６、将７这个数字减掉怪物的防御点（设为３）则为怪物所受之伤害<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>（４点生命）。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>在角色受到怪物攻击时－<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>１、玩者丢２Ｄ，然后加在角色的回避值上面。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>２、此数字若「未高过」怪物的攻击点则为被命中。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>３、用盔甲的防御力做「初始值」丢２Ｄ求出基本防御点。但此时若<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>丢出１、１的话则直接乘受怪物所给予的伤害不得减点。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>４、从怪物的「打击点」中减掉「基本防御点」以及角色的「冒险者<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>等级」即为怪物所受的伤害。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【特殊战斗指令】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>防御：回避＋４。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>两手同时持武器攻击：惯用手攻击力－２，非惯用手攻击力－４。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>干扰事项：使角色或怪物严重减低战斗力之事情（如施法，视力极端<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>恶化或丧失时）相关判定时得到－４的处罚。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>武器使用：如戟等特别的武器有时可依「劈砍」、「刺击」等不同的<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>使用方式得到不同的效果。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>行动妨害：如使用鞭、网等武器有可能使得对手丧失行动力。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>持盾冲击：必要时可以将盾视同武器攻击，但效果不如一般武器。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【死亡判定】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>当冒险者的生命点降到０以下的时候冒险者会昏迷，此时以冒险者的<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>「生命力追加值」加「冒险者等级」为「基本值」丢出２Ｄ，若这个<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>「达成值」（三项相加）高于目标值７则冒险者仍生存，但若所受到<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>的伤害使得生命点成为负数则这些负的生命点数自动成为处罚（加到<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>「目标值」之上使目标值提高，以下称「处罚」时不再另行解说。怪<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>物的死亡判定是以其「生命点之抵抗值」为基准以７为目标值，零以<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>下之生命点数一样需受到处罚。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【拯救冒险者】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>对于昏迷之冒险者若不加以适当的救助使其生命点回复的话，每隔一<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>的小时便需执行一次抵抗判定来决定其是否仍存活着（目标值７）。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【手加减】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>不希望目标被打死时有时可以宣告「手加减」，这时目标的死亡及抵<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>抗判定中只有在丢出１、１时才会死亡。一般只有使用钝器攻击时才<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>能做手加减的宣告。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【每日损伤的回复】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>完全休息时回复「生命力追加值」加上「丢２Ｄ查询转换表初始值０<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>那一栏的数字」；不完全休息时仅回复生命点追加值。但若有治疗师<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>的话每天晚上可以丢一次２Ｄ依「治疗技能等级＋知能追加值」为初<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>始值来治疗一个人。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【良质的武器、防具】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>良好的工匠可以造出在相同打击力／防御力下之「必要筋力」较小的<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>物品，但是每比原值小一点必要筋力则价格上升二成。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【魔法武器、防具】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>标示＋１时则为攻击力和伤害值都加１的意思（武器时）。魔法盾为<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>回避率＋１，魔法铠则为伤害减少值增加１点。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【银制武器防具的价格】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>五倍。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体>Ⅵ、魔法<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【所能学习的魔法之等级】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>等同于自身相关之能力等级。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【魔法之使用方法】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>对怪物施法时先求出「魔力」＝「魔法技能等级」＋「知力追加值」<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>１、丢２Ｄ，可能有自动失败。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>２、若目标有「抵抗」的动作则当２Ｄ的数字加上「魔力」值高于目<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>标的「抵抗值」的话则为成功；未高于其抵抗值的话则为不完全<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>成功或失败（视法术而定）。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>被怪物施法时则以怪物的「魔法强度」和角色的「冒险者等级」＋「<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>精神力追加值」＋「２Ｄ」来比较，若后者较大则抵抗成功。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【使用魔法时之精神力消费】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>「基本消费精神力」／「技能等级」（无条件进位）。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【精神力回复】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>连续熟睡时间超过６小时则全部回复。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【魔法之倍消费】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>视不同的魔法而可以藉由消费更多的精神力来达到数量／范围／损伤<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>或是达成值等的扩大。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> <SPAN style="mso-spacerun: yes">&nbsp;</SPAN>数量和范围的扩大：同于所消费之精神力倍数（必须是整数）。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>损伤扩大：丢复数次的２Ｄ，以大者为准求得损伤点数。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>达成值的扩大：每增加一倍的消费达成值＋１。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【精神的集中】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>部份的咒文在一定时间内只要术者能集中精神在此法术上就持续有效<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>，惟此时述者不能有任何分散注意力的行动或是状况。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【使者魔】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>法师可以藉由 LEVEL3 的召唤使者魔法术来招唤以下几种动物之一来<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>做为使者魔，惟使者魔所受的攻击也会转到术者身上。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>动物名称<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>生命点<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>精神点<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>特殊能力<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>蛙<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>２<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>２<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>广范围之视力<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>鸽子<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>３<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>３<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>飞行<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>乌鸦<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>３<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>４<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>飞行<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>猫头鹰<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>４<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>４<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>夜目、飞行<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>黑猫<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>５<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>５<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>夜目<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【使用古代语魔法的限制】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>●必需手持法杖。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>●防具等级不能高过软皮铠。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【使用精灵法术时之限制】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>●不能使用金属制装备。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>●必需空出至少一只手。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> <SPAN style="mso-spacerun: yes">&nbsp;</SPAN>●当时需要有相关的媒介。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【使用神圣／黑暗魔法之限制】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>●视不同神祗而定，但绝不可有违反教义的举动出现。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【六大神祇】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>１、至高神法利斯：制序与正义之神。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>２、战之神马利：反对卑鄙和胆小、背叛战友的行为（例如一堆人在<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>抢着戳弱小的怪物最后一刀）仅准许正义的战争。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>３、知识神莱塔：讨厌野蛮的行为，相信知识可以拯救世界。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>４、商之神加沙：反对使人不幸的行为和自我封闭型的思考方式。提<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>倡公平之交易和人与人之间的交流。（文宣写着：<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>大家一起幸福吧！）<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>５、大地母神马法：提倡自然和生产，主张一切行为皆应以自然状态<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>为本。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>６、暗黑神法拉利斯：肯定「自身内部的欲望」，讨厌「外在的无聊<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>规范的存在」。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体>Ⅷ、冒险者的成长<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【技能等级的成长】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> ┌───────────────────────┐<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │技能别经验点数<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>流浪者=RANGER, 贤者=SAGE<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>│<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> ├─────┬────┬───┬───┬────┤<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>│<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>│<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>│盗贼<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│流浪者<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │等级<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>│<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>法师<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│精灵使│战士<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│贤者<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>│<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>│<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>│<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>│祭司<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│吟游诗人│<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> ├─────┼────┼───┼───┼────┤<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>1<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>│<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>2000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│1500<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│1000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│ 500<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>│<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>2<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>│<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>3000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│2000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│1500<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│1000<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>│<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>3<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>│<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>4000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│3000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│2000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│1500<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>│<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>4<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>│<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>5000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│4000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│3000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│2000<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>│<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>5<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>│<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>7000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│5000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│4000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│3000<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>│<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>6<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>│<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>9000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│7000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│5000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│4000<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>│<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>7<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>│ 12000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│9000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│7000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│5000<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>│<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>8<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>│ 15000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│12000 │9000<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│7000<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>│<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> └─────┴────┴───┴───┴────┘<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>※技能之上升视情况需要相关的场所以及时间。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>同时修习法师和贤者技能时若一方的技能已比较高则可以照下表减<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>低所消耗之经验点数。<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> ┌───┬───┐<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │等<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>级│减少量│<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> ├───┼───┤<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>１<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>500 │<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>２<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>500 │<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>３<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│ 1000 │<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>４<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│ 1000 │<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>５<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│ 1500 │<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>６<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│ 2000 │<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>７<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│ 3000 │<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> │<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>８<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>│ 4000 │<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> └───┴───┘<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><o:p><FONT face=宋体>&nbsp;</FONT></o:p></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体> 【基本能力值的成长】<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>可以使用经验点增加器用、敏捷、筋力、知力等的数值，人类增加每<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>项每点需 3000 点经验值；其它种族需 5000 点。若要增加生命力或<o:p></o:p></FONT></SPAN></PRE><PRE><SPAN lang=EN-US style="FONT-SIZE: 10.5pt"><FONT face=宋体><SPAN style="mso-spacerun: yes">&nbsp; </SPAN>是精神力的话经验值的消耗只需其它能力的一半。<o:p></o:p></FONT></SPAN></PRE></o:p></FONT></SPAN></PRE></SPAN></FONT></SPAN></FONT></PRE></td>
+                          </tr>
+                          <tr>
+                            <td height="13" align="right" valign="top">                    <tr>
+                      <td valign="top" align="right"><span class="normalfont"><b>责任编辑:</b>
+                        dexter_yy</span></td>
+                    </tr></td>
+                          </tr>
+                        </table>
+                        <p><table cellpadding=4 width="100%" border=0 cellspacing="1">
+  <form action="article.php" method="get">
+    <tr>
+      <td align="right">
+        <span class="normalfont"><a href="articleid=969/pagenum=2.html"><b>Sword World Rules Part B</b></a> <b><span class="arrow">&raquo;</span></b></span>
+        </td>
+    </tr>
+    <tr>
+      <td align="right">
+        <input type="hidden" name="articleid" value="969">
+        <select name="pagenum" onChange="window.location=('http://www.ntrpg.org/yy/undertopia/article.php?articleid=969&pagenum='+this.options[this.selectedIndex].value)">
+          <option value="-1" >--文章内容列表--</option>
+          <option value="-1">--------------------</option>
+                    <option value="1"> 1 - Sword World Rules Part A </option><option value="2"> 2 - Sword World Rules Part B </option>
+        </select>
+        <input type="submit" value="GO" class="button">
+      </td>
+    </tr>
+  </form>
+</table>
+  </p></td>
+                    </tr>
+                  </table>
+                  <p>&nbsp;</p>
+                  <table width="94%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr align="center"> 
+                            <td height="55"> 
+                              <table width="99%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="3%" height="38" background="../images/BAR1.gif"><img src="../images/BAR1_LEFT.gif" width="17" height="38"></td>
+                                  <td width="95%" align="center" background="../images/BAR1.gif">
+								  <table width="100%" border="0" cellspacing="0" cellpadding="4">
+                                      <tr align="center" bgcolor=""> 
+                                        <td width="20%" nowrap><span class="normalfont"><b><a href="../comment.php/action=add/articleid=969.html"><font color="#FFFF00" size="2">发表评论</font></a></b></span></td>
+                                        <td width="20%" nowrap><span class="normalfont"><b><a href="../comment.php/action=view/articleid=969.html"><font color="#FFFF00" size="2">查看评论</font></a></b></span></td>
+                                        <td width="20%" nowrap><span class="normalfont"><b><a href="../favorite.php/action=add/articleid=969/pagenum=1.html"><font color="#FFFF00" size="2">加入收藏</font></a></b></span></td>
+                                        <td width="20%" nowrap><span class="normalfont"><b><a href="../recommend.php/articleid=969/pagenum=1.html"><font color="#FFFF00" size="2">Email给朋友</font></a></b></span></td>
+                                        <td width="20%" nowrap><span class="normalfont"><b><a href="../print.php/articleid=969.html"><font color="#FFFF00" size="2">打印本文</font></a></b></span></td>
+                                      </tr>
+                                    </table>
+								  
+								  </td>
+                            <td width="2%" background="../images/BAR1.gif"><img src="../images/BAR1_RIGHT.gif" width="17" height="38"></td>
+                          </tr>
+                        </table>
+							
+							</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr align="center">
+                <td width="56%" align="left"><span class="normalfont">一名沙华鱼人似乎注意到了你的疑惑：“阁下，如果你想对该文章评分，请先携带有效证件到Undertopia<a href="../member.php/action=login.html">城管办事处</a>登记，如果你还没有成为我们地下城的合法居民，请看头顶上方，那有一只丑陋的<a href="../register.php.html">眼魔</a>，它会给你把事情办妥”。</span> </td>
+                <td width="44%">
+                  <table border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td><span class="normalfont"><b>平均得分 10.00, 共 1 人评分</b></span></td>
+                    </tr>
+                    <tr>
+                                  <td height="44"> 
+                                    <table border="0" cellspacing="1" cellpadding="2">
+                          <tr>
+                            <td width="10" height="20" valign="bottom"><img src="../images/bar.gif" border="0" width="10" height="0"></td>
+                            <td width="10" height="20" valign="bottom"><img src="../images/bar.gif" border="0" width="10" height="0"></td>
+                            <td width="10" height="20" valign="bottom"><img src="../images/bar.gif" border="0" width="10" height="0"></td>
+                            <td width="10" height="20" valign="bottom"><img src="../images/bar.gif" border="0" width="10" height="0"></td>
+                            <td width="10" height="20" valign="bottom"><img src="../images/bar.gif" border="0" width="10" height="0"></td>
+                            <td width="10" height="20" valign="bottom"><img src="../images/bar.gif" border="0" width="10" height="0"></td>
+                            <td width="10" height="20" valign="bottom"><img src="../images/bar.gif" border="0" width="10" height="0"></td>
+                            <td width="10" height="20" valign="bottom"><img src="../images/bar.gif" border="0" width="10" height="0"></td>
+                            <td width="10" height="20" valign="bottom"><img src="../images/bar.gif" border="0" width="10" height="0"></td>
+                            <td width="10" height="20" valign="bottom"><img src="../images/bar.gif" border="0" width="10" height="30"></td>
+                          </tr>
+                          <tr>
+                            <td nowrap align="center"><span class="smallfont">1</span></td>
+                            <td nowrap align="center"><span class="smallfont">2</span></td>
+                            <td nowrap align="center"><span class="smallfont">3</span></td>
+                            <td nowrap align="center"><span class="smallfont">4</span></td>
+                            <td nowrap align="center"><span class="smallfont">5</span></td>
+                            <td nowrap align="center"><span class="smallfont">6</span></td>
+                            <td nowrap align="center"><span class="smallfont">7</span></td>
+                            <td nowrap align="center"><span class="smallfont">8</span></td>
+                            <td nowrap align="center"><span class="smallfont">9</span></td>
+                            <td nowrap align="center"><span class="smallfont">10</span>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+                        </table></td>
+                    </tr>
+                    <tr>
+                      <td height="25" align="center"><P><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td align="center">  </td>
+                          </tr>
+                        </table></P></td>
+                    </tr>
+                  </table>
+                  <p>&nbsp;</p></td>
+              </tr>
+              <tr> 
+                <td height="156" valign="bottom" background="../images/article_bg_left2.gif"><img src="../images/article_bg_leftbase2.gif" width="82" height="156"></td>
+                <td width="87%" align="right" valign="bottom" background="../images/articleBG.jpg"> 
+                  <table width="80%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td height="68" align="right" valign="top"><img src="../images/bar3.gif" width="489" height="68"></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+  <table width="1007" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="168" rowspan="2" valign="bottom"><img src="../images/footer_left_TOP2.gif" width="182" height="210"></td>
+      <td width="788" height="163">&nbsp;</td>
+      <td width="51" rowspan="2" valign="bottom"><img src="../images/footer_RIGHT_TOP.gif" width="181" height="210"></td>
+    </tr>
+    <tr>
+      <td height="55"><img src="../images/footer_COPYRIGHT.gif" width="644" height="56"></td>
+    </tr>
+    <tr> 
+      <td height="207"><img src="../images/footer_left.gif" width="182" height="207"></td>
+      <td background="../images/footer_BG.gif">&nbsp;</td>
+      <td><img src="../images/footer_RIGHT.gif" width="182" height="206"></td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,1451 @@
+<html>
+<head>
+<title>最深的地下城 UNDERTOPIA - 玩家手册-战斗</title>
+<meta name="keywords" content="玩家手册-战斗">
+<meta content="冒险者们在击败恐怖怪物的过程中获得名望和财富。只要克服恐惧和保守的老谋深算，无数的战斗机会就会在前方等着你。不死生物潜伏在古老的墓穴中；六腿豹躲藏在幽魂出没的废墟里；成群结队的食人穴妖在黑暗的洞穴中建造它们的居所。虽然许多寻常的怪物，如地精盗匪，持着长矛和剑，但也有更多异种生物使用奇异的武器对抗冒险者们，从食人穴妖的臭气攻击到龙致命的龙息武器。" name="description">
+<meta name="Keywords" content="dungeon,dragon,dnd,adnd,d&d,ad&d,trpg,pnp,rpg,game,yy,ddda,undertopia,龙与地下城,角色扮演,纸上角色扮演,纸笔,桌面,游戏,最深的地下城,奇幻,魔法,龙枪,被遗忘国度,异域,planescape,英雄,冒险,资料,魔兽,灰鹰,无冬,博德,博得,辐射,fallout,黑岛,欧美">
+<meta name="description" content="Undertopia - 最深的地下城 - 龙与地下城及桌面游戏中文资料网 - NTRPG MEMBER SITE" >
+
+
+<meta http-equiv="content-type" content="text/html; charset=gb2312">
+
+<SCRIPT language=JavaScript src="../../DDDA.FILES/fade_image.js"></SCRIPT>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+
+ <style type="text/css">
+<!--
+td {
+        font-family: "Arial", "身妾"; font-size: 12px; line-height: 17px; white-space: normal;
+}
+/* default link colors */
+a {
+	color: #FFFF99;
+	background-color: transparent;
+	TEXT-DECORATION:none;
+	
+}
+a:visited {
+	color: #FFFF99;
+	background-color: transparent;
+	TEXT-DECORATION:none;
+	
+}
+a:hover {
+	color: #D50000;
+	background-color: transparent;
+                text-decoration: underline
+	
+}
+
+/* default page elements */
+p, li, dl {
+  text-align: left;
+}
+
+input,textarea{
+	font-family: "Tahoma", "MS Shell Dlg", "宋体";
+	font-size : 12px;
+	font-weight : normal;
+	line-height: 18px;
+}
+
+/* buttons */
+.button {
+        font-family: "Tahoma", "MS Shell Dlg", "宋体";
+        font-size : 12px;
+        font-weight : bold;
+}
+
+.text {
+	color : #000000;
+	font-family: "Tahoma", "MS Shell Dlg", "宋体";
+	font-size : 12px;
+	font-weight : normal;
+	line-height: 18px;
+}
+select {
+	color : #000000;
+	font-family: "Tahoma", "MS Shell Dlg", "宋体";
+	font-size : 12px;
+	font-weight : normal;
+	line-height: 18px;
+}
+.firstalt {
+                background-color: #EEEEEE;
+}
+.secondalt {
+}
+.bigfont {
+                    font-family: "Tahoma", "MS Shell Dlg", "宋体";
+                    font-size: 16px;
+                    font-weight : bolder;
+}
+.normalfont {
+                    font-family: Tahoma,MS Shell Dlg,宋体;
+                    font-size: 12px;
+}
+.middlefont {
+                    font-family: Tahoma,MS Shell Dlg,宋体;
+                    font-size: 11px;
+}
+.smallfont {
+                    font-family: Tahoma,MS Shell Dlg,宋体;
+                    font-size: 9px;
+}
+.arrow {
+                    font-family: "Tahoma", "MS Shell Dlg", "宋体";
+                    font-size: 9px;
+}
+#content a:link,#content a:active,#content a:visited {
+                text-decoration: underline;
+                color : #FF6600;
+}
+#content a:hover {
+                text-decoration: none;
+                color : #FF6600;
+}
+.content {
+	font-family: "Tahoma", "MS Shell Dlg", "宋体";
+	font-size: 14px;
+	line-height: 130%;
+	color: #990000;
+}
+
+.subhead {
+                    font-family: Tahoma,MS Shell Dlg,宋体;
+                    font-size: 14px;
+                    color: #FF6600;
+}
+
+#cattext {
+        text-decoration: none;
+        color: #000000;
+        font-family: Tahoma,MS Shell Dlg,宋体;
+        font-size : 12px;
+}
+
+#tbh {
+        text-decoration: none;
+        color: #000000;
+        font-family: Tahoma,MS Shell Dlg,宋体;
+        font-size : 12px;
+}
+#tbh A:link {COLOR: #FFFFFF; TEXT-DECORATION: none}
+#tbh  A:visited {COLOR: #FFFFFF; TEXT-DECORATION: none}
+#tbh  A:active {COLOR: #FFFFFF; TEXT-DECORATION: none}
+#tbh  A:hover {COLOR: #FFFFFF; TEXT-DECORATION: none}
+
+#nav { background-color :#303958 }
+#nav A{ text-decoration: none; color: #FFFFFF; TEXT-DECORATION: none}
+
+#root A{ text-decoration: none; color: #000000;}
+#cat A{ text-decoration: none; color: #000000;}
+
+#head { color: #000000; background-color :}
+#head A{ text-decoration: none; color: #FFFFFF;}
+
+#cattitle A:link {COLOR: #000000; TEXT-DECORATION: none}
+#cattitle A:visited {COLOR: #000000; TEXT-DECORATION: none}
+#cattitle A:active {COLOR: #000000; TEXT-DECORATION: none}
+#cattitle A:hover {COLOR: #000000; TEXT-DECORATION: none}
+
+
+/* generic body */
+body {
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, Verdana, Sans-serif;
+  font-size: 80%;
+  color: #000;
+  background-color: #fff;
+  background-position: top left;
+  background-attachment: scroll;
+  background-image: url("http://www.ntrpg.org/yy/undertopia/images/bg.gif");
+}
+
+
+.topnav a {
+	font-size: 12px;
+	color: #000000;
+}
+.topnav a:link {color: #000000; text-decoration: none}
+.topnav a:visited {color: #000000; text-decoration: none}
+.topnav a:active {color: #000000; text-decoration: none}
+.topnav a:hover {color: #FFFFFF; text-decoration: none}
+
+-->
+</style>
+
+</head>
+<body onLoad="MM_preloadImages(\'imageS/Left_NB_l1C.gif\',\'imageS/Left_NB_tophomec.gif\',\'imageS/Left_NB_l2C.gif\',\'imageS/Left_NB_l3C.gif\',\'imageS/Left_NB_l4C.gif\',\'imageS/Left_NB_l5C.gif\',\'imageS/Left_NB_l6C.gif\',\'imageS/Left_NB_l7C.gif\',\'imageS/Left_NB_l8C.gif\',\'imageS/Left_NB_l9C.gif\',\'imageS/Left_NB_l10.gif\')">
+ <script language="JavaScript" type="text/JavaScript">
+<!--
+
+function changehead(){
+var num=rand(10);
+pic=document.getElementById("headbg");
+pic.style.backgroundImage="url(http://www.ntrpg.org/yy/undertopia/images/bghead"+num+".jpg)";
+}
+
+// The Central Randomizer
+
+　　rnd.today=new Date();
+
+　　rnd.seed=rnd.today.getTime();
+
+
+
+　　function rnd() {
+
+　　rnd.seed = (rnd.seed*9301+49297) % 233280;
+
+　　return rnd.seed/(233280.0);
+
+　　};
+
+
+
+　　function rand(number) {
+
+　　return Math.ceil(rnd()*number);
+
+　　}; 
+window.onload=changehead;
+
+
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"><center>
+<!-- start logo -->
+<table width="1007" height="321" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="1007" height="321" align="left" valign="top" background="../../images/bghead1.jpg" id=headbg> 
+      <table width="1007" height="321" border="0" cellspacing="0"cellpadding="0">
+          <tr> 
+          <td width="10%" height="186" align="center" valign="top">
+<div id="Layer1" style="position:absolute; width:74px; height:70px; z-index:1; left: 8px; top: 227px;"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  <td><img src="../../images/clock.gif" width="64" height="68"></td>
+                </tr>
+              </table>
+            </div>
+            <div id="Layer2" style="position:absolute; width:69px; height:79px; z-index:2; left: 15px; top: 71px;"> 
+              <p><a href="javascript:window.external.addFavorite('http://www.ntrpg.org/yy/','最深的地下城')"><font color="#FFCC00" size="2">收藏本站</font></a></p>
+              <p><a href="../../../index.html"><font color="#FFCC00" size="2">返回首页</font></a></p>
+              <p><a href="http://www.dndfans.org/bbs/index.php?s=8bf2ac1b6196af7012278ed0f4fd1447&showforum=18"><font color="#FFCC00" size="2">访问论坛</font></a></p>
+            </div>
+            <div id="Layer3" style="position:absolute; width:91px; height:42px; z-index:3; left: -3px; top: 169px;"><font color="#FF9900" size="2">地下城中有<Br>
+              <b>50</b><Br>
+              位冒险者 </font></div></td>
+          <td width="9%" height="186" align="left" valign="top">&nbsp;</td>
+          <td width="9%" height="186" align="left" valign="top">&nbsp;</td>
+          <td width="23%" height="186" align="left" valign="top">&nbsp;</td>
+          <td width="13%" height="186" align="left" valign="top">&nbsp;</td>
+          <td width="19%" height="186" align="left" valign="top">&nbsp;</td>
+            
+          <td width="17%" height="186" align="left" valign="bottom"><img src="../../images/login.gif" width="109" height="156" border="0" usemap="#Map4" style="FILTER: alpha(opacity=80)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></td>
+        </tr>
+        <tr> 
+            <td height="117" align="left" valign="top">&nbsp;</td>
+            
+          <td height="117" align="left" valign="bottom"><a href="mailto:dexter.yy@gmail.com"><img src="../../images/eye.gif" alt="一束奇特的神经纤维，你可以通过它直接向城主传送信息" width="54" height="91" border="0" style="FILTER: alpha(opacity=70)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+            <td height="117" align="right" valign="bottom"><a href="../../contribute.php.html"><img src="../../images/bag.gif" alt="把你的文章交给Altar of Article的祭司，通过审核后就能收录到地下城里……" width="55" height="44" border="0"style="FILTER: alpha(opacity=70)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+            
+          <td height="117" align="left" valign="bottom"><img src="../../images/mimirtable.gif" width="209" height="61" border="0" usemap="#Map" href="Mimir3" style="FILTER: alpha(opacity=70)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></td>
+            
+          <td height="117" align="left" valign="bottom">&nbsp;</td>
+            <td height="117" align="left" valign="bottom">&nbsp;</td>
+            
+          <td rowspan="2" align="right" valign="bottom"><img src="../../images/searchgolem.gif" width="179" height="122" border="0" usemap="#Map2" style="FILTER: alpha(opacity=90)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></td>
+        </tr>
+        <tr> 
+          <td height="21" align="left" valign="top">&nbsp;</td>
+          <td height="21" align="left" valign="bottom">&nbsp;</td>
+          <td height="21" colspan="2" align="left" valign="bottom"><font color="#FFCC00"size="2"><strong> </strong></font></td>
+          <td height="21" align="left" valign="bottom">&nbsp;</td>
+          <td height="21" align="left" valign="bottom">&nbsp;</td>
+        </tr>
+      </table ></td>
+  </tr>
+</table>
+  <map name="Map">
+    
+  <area shape="circle" coords="40,30,28" href="../../sort.php/sortid=120.html" target="lastupdate" alt="黄色Mimir：地下城旅行指南">
+    
+  <area shape="circle" coords="102,27,25" href="../../search.php/action=lastupdate.html" target="sitemap" alt="红色Mimir：查询最近更新">
+    
+  <area shape="circle" coords="163,33,23" href="../../sort.php/sortid=121.html" target="DOWNLOAD" alt="蓝色Mimir：它提供本站的FAQ">
+</map>
+<map name="Map3">
+  <area shape="circle" coords="66,44,43" href="../../register.php.html" target="register" alt="眼魔书记，负责办理居民登记业务">
+  </map>
+<map name="Map2">
+  <area shape="rect" coords="37,0,174,93" href="../../search.php.html" target="search" alt="提供自动搜索服务的密银魔像">
+</map>
+<map name="Map4">
+  <area shape="circle" coords="66,45,42" href="../../register.php.html" target="register" alt="眼魔书记，负责办理居民登记业务">
+  <area shape="rect" coords="35,83,97,153" href="../../usercp.php.html" target="usercp" alt="《Book of Dark Denizens》，你可以使用它修改个人资料">
+</map>
+
+
+<!-- end logo -->
+
+
+<table width="1007" border="0" cellspacing="0"cellpadding="0" >
+  <tr> 
+    <td height="2303" align="center" valign="top"> 
+      <table width="100%" border="0" cellspacing="0"cellpadding="0">
+        <tr align="left" valign="top"> 
+              
+          <td width="8%" height="2303" rowspan="2" bordercolor="0"border="0" cellspacing="0"cellpadding="0"> 
+            <table width="18%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><img src="../../images/Left_NB_tophead.gif" width="180" height="60"></td>
+  </tr>
+  <tr> 
+    <td height="15"><img src="../../images/Left_NB_topwelcome.gif" width="180" height="72"></td>
+  </tr>
+  <tr> 
+    <td height="15"><img src="../../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td><a href="../../index.php.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image63','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_tophomec.gif',1)"><img src="../../images/Left_NB_tophome.jpg" alt="首页：公告、新闻、最近更新" name="Image63" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><a href="../../sort.php/sortid=7.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image64','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l1C.gif',1)"><img src="../../images/Left_NB_l1.gif" alt="新手入门：TRPG简介，龙与地下城基础知识，奇幻文学相关" name="Image64" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><img src="../../images/Left_NB_top.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td background="../../images/Left_NB_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td height="24" align="center"><a href="../../sort.php/sortid=8.html"><img src="../../images/Left_NB_l1-1.gif" width="180" height="26" border="0" style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this); ></a></td>
+        </tr>
+        <tr> 
+          <td height="24" align="center"><a href="../../sort.php/sortid=9.html"><img src="../../images/Left_NB_l1-2.gif" width="180" height="26" border="0" style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><img src="../../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td><a href="../../sort.php/sortid=10.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image65','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l2C.gif',1)"><img src="../../images/Left_NB_l2.gif" alt="TRPG玩家交流：留言板、跑团信息、战报" name="Image65" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><img src="../../images/Left_NB_top.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td height="69" background="../../images/Left_NB_bg.gif"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td height="19"><a href="http://bbs.ntrpg.org/index.php" target=_blank><img src="../../images/Left_NB_l2_1.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=12.html"><img src="../../images/Left_NB_l2_2.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=13.html"><img src="../../images/Left_NB_l2_3.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td height="16"><a href="../../sort.php/sortid=14.html"><img src="../../images/Left_NB_l2_4.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><img src="../../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td><a href="../../sort.php/sortid=15.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image66','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l3C.gif',1)"><img src="../../images/Left_NB_l3.gif" alt="龙与地下城资料：游戏规则、角色扮演参考资料" name="Image66" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><img src="../../images/Left_NB_top.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td background="../../images/Left_NB_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><a href="../../sort.php/sortid=16.html"><img src="../../images/Left_NB_l3_1.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=17.html"><img src="../../images/Left_NB_l3_2.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=18.html"><img src="../../images/Left_NB_l3_3.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=19.html"><img src="../../images/Left_NB_l3_4.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=20.html"><img src="../../images/Left_NB_l3_5.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=21.html"><img src="../../images/Left_NB_l3_6.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><img src="../../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td><a href="../../sort.php/sortid=22.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image67','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l4C.gif',1)"><img src="../../images/Left_NB_l4.gif" alt="龙与地下城资料：游戏背景、世界设定" name="Image67" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><img src="../../images/Left_NB_top.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td background="../../images/Left_NB_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><a href="../../sort.php/sortid=23.html"><img src="../../images/Left_NB_l4_1.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=24.html"><img src="../../images/Left_NB_l4_2.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=25.html"><img src="../../images/Left_NB_l4_3.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=26.html"><img src="../../images/Left_NB_l4_4.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><img src="../../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td><a href="../../sort.php/sortid=27.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image68','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l5C.gif',1)"><img src="../../images/Left_NB_l5.gif" alt="原创文章" name="Image68" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><img src="../../images/Left_NB_top.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td background="../../images/Left_NB_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><a href="../../sort.php/sortid=30.html"><img src="../../images/Left_NB_l5_1.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=29.html"><img src="../../images/Left_NB_l5_2.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=28.html"><img src="../../images/Left_NB_l5_3.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><img src="../../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td><a href="../../sort.php/sortid=31.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image69','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l6C.gif',1)"><img src="../../images/Left_NB_l6.gif" alt="龙与地下城资料：神祗、信仰" name="Image69" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><img src="../../images/Left_NB_top.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td background="../../images/Left_NB_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><a href="../../sort.php/sortid=32.html"><img src="../../images/Left_NB_l6_1.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=33.html"><img src="../../images/Left_NB_l6_2.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><img src="../../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td><a href="../../sort.php/sortid=34.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image70','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l7C.gif',1)"><img src="../../images/Left_NB_l7.jpg" alt="龙与地下城资料：种族、怪物、奇幻生物" name="Image70" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><img src="../../images/Left_NB_top.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td background="../../images/Left_NB_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><a href="../../sort.php/sortid=35.html"><img src="../../images/Left_NB_l7_1.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=36.html"><img src="../../images/Left_NB_l7_2.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><img src="../../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td><a href="../../sort.php/sortid=122.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('L9','','http://www.ntrpg.org/yy/undertopia/images/L9C.gif',1)"><img src="../../images/L9.jpg" alt="实体桌面游戏专区" name="L9" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><a href="../../sort.php/sortid=37.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image71','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l8C.gif',1)"><img src="../../images/Left_NB_l8.gif" alt="TRPG资料：DND以外的TRPG游戏" name="Image71" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><img src="../../images/Left_NB_top.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td background="../../images/Left_NB_bg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><a href="../../sort.php/sortid=38.html"><img src="../../images/Left_NB_l8_1.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=39.html"><img src="../../images/Left_NB_l8_2.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=65.html"><img src="../../images/Left_NB_l8_8.gif" width="180" height="26" border="0" style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=40.html"><img src="../../images/Left_NB_l8_3.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=42.html"><img src="../../images/Left_NB_l8_4.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=41.html"><img src="../../images/Left_NB_l8_5.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=66.html"><img src="../../images/Left_NB_l8_9.gif" width="180" height="26" border="0" style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=43.html"><img src="../../images/Left_NB_l8_6.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../../sort.php/sortid=44.html"><img src="../../images/Left_NB_l8_7.gif" width="180" height="26" border="0"style="FILTER: alpha(opacity=60)" onmouseover=fadein_(this); onmouseout=fadeout_(this);></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><img src="../../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td><a href="../../sort.php/sortid=45.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image72','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l9C.gif',1)"><img src="../../images/Left_NB_l9.gif" alt="相关资源下载" name="Image72" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><a href="../../sort.php/sortid=119.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image73','','http://www.ntrpg.org/yy/undertopia/images/Left_NB_l10c.gif',1)"><img src="../../images/Left_NB_l10.gif" alt="网络资源，推荐链接" name="Image73" width="180" height="59" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td><img src="../../images/Left_NB_top.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td align="center" background="../../images/Left_NB_bg.gif"><table width="75%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center">
+		  <script type="text/javascript"><!--
+google_ad_client = "pub-3806100801361928";
+google_ad_width = 120;
+google_ad_height = 240;
+google_ad_format = "120x240_as_rimg";
+google_cpa_choice = "CAAQw8P8zwEaCCkfm-KkreZAKKG_93M";
+//--></script>
+<script type="text/javascript" src="">
+</script>
+		  </td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td><img src="../../images/Left_NB_base.gif" width="180" height="18"></td>
+  </tr>
+  <tr> 
+    <td height="59" align="center" valign="middle" background="../../images/Left_NB_LOGO.jpg"> 
+      <table width="70%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td height="19" align="center" valign="top"><img src="../../images/Left_NB_SITELOGO.gif" width="104" height="17"></td>
+        </tr>
+        <tr> 
+          <td align="center" valign="middle"><img src="../../images/DDDA_LOGO.gif" width="88" height="31"></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><a href="../../../../sitering/index.html" target=_blank><img src="../../images/left_NB_NTRlogo.gif" width="180" height="118"border="0"></td>
+  </tr>
+  <tr> 
+    <td><img src="../../images/Left_NB_trail.gif" width="180" height="156"></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+</table>
+ </td>
+
+          <td width="75%" height="317"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="2%" height="293" background="../../images/Board_left.gif">&nbsp;</td>
+                <td width="96%" align="center" valign="middle" bgcolor="#000000">
+
+ <p>&nbsp;</p>
+                        <table width="93%" border="0" cellspacing="0" cellpadding="0">
+                          <tr align="center"  valign="top"> 
+                            <td height="307" valign="top" ><img src="../../images/Board_L3.gif" width="400" height="300"></td>
+                          </tr>
+                          <tr align="center"  valign="top"> 
+                            <td align="left" valign="top" > <p><font color="#FFFF00" size="3"><strong>Great 
+                                Dismal Library</strong></font></p>
+                              <p><font color="#FFFFFF" size="2">你说不清这到底是一座图书馆还是一座寺庙。高大紧闭的窗户，昏暗摇烁的烛光，穿着长袍戴着罩帽的管理员让你想起印记城里的Dustman，</font></p>
+                              <p><font color="#FFFFFF" size="2">阿斯特纽斯在帕兰萨斯图书馆里记载过去和现在，智者阿兰多在烛堡里撰写未来，苦力们在大阴暗图书馆里挖坑......呃，是的，这些僧侣似的家伙都被称作“苦力众”，他们喜欢在图书馆里四处挖坑，有些良心没有泯灭的家伙过些时候会主动把坑填上，但大多数坑就这么放在那，有时两个苦力会挖到同一个坑里，他们管这个叫“撞车”......</font></p>
+                              
+                        <p><font color="#FFFFFF" size="2">好罢不管那些乱七八糟的事，这地方就实在太暗了！你决定先向管理员们提出这个意见，很快你得到了答复：请自行调节显示器的亮度和对比度，建议购买非礼扑LightFrame系列产品.......</font></p>
+                              </td>
+                          </tr>
+                        </table>
+                        <p>&nbsp;</p>
+						
+</td>
+                <td width="2%" background="../../images/Board_right.gif">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td height="24"><img src="../../images/Board_leftbase.gif" width="25" height="23"></td>
+                <td background="../../images/Board_base.gif">&nbsp;</td>
+                <td bgcolor="#000000"><img src="../../images/Board_rightbase.gif" width="20" height="24"></td>
+              </tr>
+            </table></td>
+
+          <td width="17%" align="right" background="../../images/right_nb_bg.jpg"cellspacing="0" cellpadding="0"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="center" background="../../images/right_search_bg.jpg">
+				
+				<table width="70%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td height="90" align="center" valign="middle"> <form method="get" action="http://www.ntrpg.org/yy/undertopia/search.php">
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                            <tr> 
+                              <td align="center"> <input type="text" name="keyword" size="15" maxlength="20"> 
+                                <BR> <BR> <input type="submit" value="搜索" class="button" > 
+                                <BR> <BR> <select name="type">
+                                  <option value="all" selected>按内容搜索</option>
+                                  <option value="title">按名字搜索</option>
+                                </select> <input type="hidden" name="ordertype" value="date"> 
+                                <input type="hidden" name="action" value="result"> 
+                              </td>
+                            </tr>
+                          </table>
+                        </form></td>
+                    </tr>
+                  </table>
+				  
+				</td>
+              </tr>
+              <tr>
+                <td background="../../images/right_search_bg.jpg"><img src="../../images/right_search_base.gif" width="180" height="34"></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="125" align="center" valign="top"><font color="#FFCC00"><strong>居民专用通道</strong></font><BR>
+                  <form method="post" action="http://www.ntrpg.org/yy/undertopia/member.php">
+                    <table width="78%" border="0" cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td width="49%" height="29"><font size="2"><span class="normalfont">你的姓名？
+                          <input type="text" size="9"name="username">
+                          </span></font></td>
+                      </tr>
+                      <tr> 
+                        <td><font size="2"><span class="normalfont">报出口令！
+                          <input type="password"size="9" name="password">
+                          </span></font></td>
+                      </tr>
+                    </table>
+                    <br>
+				  <input type="hidden" name="url" value="/yy/undertopia/article.php?articleid=143&amp;pagenum=7">
+                          <input type="hidden" name="action" value="login">
+                          <input type="submit" value=" 进入 " class="button">
+                    <input type="reset" value=" 重置 " class="button">
+						  
+</form></td>
+              </tr>
+            </table> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                
+              </tr>
+            </table>
+          </td>
+
+
+</tr>
+
+
+<tr align="left" valign="top"> 
+          <td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="10%" height="235" valign="top" background="../../images/article_bg_left2.gif"><img src="../../images/article_bg_lefttop2.gif" width="81" height="149"></td>
+                <td width="87%" valign="top" background="../../images/articleBG.jpg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td height="77" align="center" valign="middle">　 
+                        <table width="96%" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td width="2%" background="../../images/BAR1.gif"><img src="../../images/BAR1_LEFT.gif" width="17" height="38"></td>
+                            <td width="95%" background="../../images/BAR1.gif"><font color="#FFFF00"><table width="100%" border="0" cellspacing="4" cellpadding="0" >
+  <tr>
+    <td><a href="../../index.php.html"><font color="#FFFF00">最深的地下城 UNDERTOPIA</font></a><font color="#FFFF00"> / <a href="../../sort.php/sortid=15.html">大阴暗图书馆</a> / <a href="../../sort.php/sortid=16.html">核心规则</a> / <a href="../../sort.php/sortid=52.html">玩家手册（第三版）</a> / 玩家手册-战斗</font>
+    </td>
+  </tr>
+</table></font></td>
+                            <td width="3%" background="../../images/BAR1.gif"><img src="../../images/BAR1_RIGHT.gif" width="17" height="38"></td>
+                          </tr>
+                        </table>
+					  </td>
+                    </tr>
+                    <tr> 
+                      <td height="109" align="center"> 
+                        <table width="66%" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td colspan="3"><img src="../../images/article_title_top.gif" width="470" height="34"></td>
+                          </tr>
+                          <tr> 
+                            <td width="11%" align="left"><img src="../../images/article_title_left.gif" width="43" height="31"></td>
+                            <td width="81%" align="center"><font size="4" class=bigfont><b>玩家手册-战斗</b></font></td>
+                            <td width="8%" align="right"><img src="../../images/article_title_right.gif" width="40" height="31"></td>
+                          </tr>
+                          <tr> 
+                            <td colspan="3"><img src="../../images/article_title_base.gif" width="470" height="33"></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                    <tr>
+                      <td height="49" align="center" valign="bottom">
+<table width="96%" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td width="2%" height="38" background="../../images/BAR1.gif"><img src="../../images/BAR1_LEFT.gif" width="17" height="38"></td>
+                            <td width="95%" align="center" background="../../images/BAR1.gif"><span class="normalfont"><font color="#FFFFFF" size="2">日期：2004-08-20</font> 
+                              <font color="#FFFFFF" size="2"> 　作者：Gecko、link、bal 
+                              　来自：DNDFANS.org 　点击: 6688</font></span></td>
+                            <td width="3%" background="../../images/BAR1.gif"><img src="../../images/BAR1_RIGHT.gif" width="17" height="38"></td>
+                          </tr>
+                        </table>
+                        
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td width="3%" rowspan="3" valign="top" background="../../images/article_bg_right.gif">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td height="1568" background="../../images/article_bg_left2.gif">&nbsp;</td>
+                <td width="87%" align="center" valign="top" background="../../images/articleBG.jpg"><p>&nbsp;</p>
+                  <table width="94%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td height="63" valign="top"> 
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td height="31" valign="top"><b>特殊攻击及伤害</b></td>
+                          </tr>
+                          <tr>
+                            <td height="13" valign="top"><!--StartFragment -->&nbsp;
+<P>
+<TABLE cellSpacing=0 cellPadding=2 width="100%" border=1>
+<TBODY>
+<TR>
+<TD>（以下部分译者：bal） </TD></TR></TBODY></TABLE><BR></P>
+<HR>
+<B>特殊攻击及伤害</B><BR><BR>　　这部分包括了淤伤，徒手伤害，擒拿，投掷爆炸溅射性武器（如溅射出酸液）, 攻击指定目标（如捣毁敌方掩体或强制劈开锁住的宝箱），转变或超度不死生物(对应牧师和圣武士),和其它特殊攻击的分类。 
+<P><B>淤伤</B><BR>　　有时当你被虐待或被削弱，例如陷入一场拳脚争斗中或者被急行军拖垮。这种压力不会致你于死地，但会使你彻底垮掉甚至昏厥。 <BR>　　非致命伤害是一种慢性伤害。如果你受到的慢性伤害达到一定程度,你将昏倒不醒人事,但你并不会死。慢性伤害消失的要比普通伤害快得多。 <BR>　　<B>慢性伤害怎么产生的：</B>矮人战士Tordek与两个粗鲁地试图扯他的胡子来羞辱他的半兽人在一个酒馆里打架。他们相互攻击，并且Tordek受到4点的淤伤。他有13点生命，因此 4点淤伤对他不算什么。他幸运地做出了4点的淤伤攻击，使生命点数只有4的一个半兽人开始站不稳了。他的下一次攻击打的半兽人不醒人事（它所受淤伤超过了自己的生命点数），但是Tordek又受到了5点淤伤，这样就已经有9点了。当Tordek转向第二个半兽人时，恶棍抄起一把匕首并刺伤了Tordek使其受到5点伤害（普通伤害，不是淤伤）。这时Tordek的生命点数只有8点了。现在Tordek受到的淤伤（9）已经超过了他的生命点数（8），他被击倒了，但他仍然有8点生命，所以他并不会死去，只是失去了意识。拿匕首的半兽人在守卫来之前溜走了。 <BR>　　Jozan，人类牧师，听到吵闹声前来看看发生了什么。他运用治疗轻伤神术来医治这个不醒人事的朋友，治愈了4点生命。这使Tordek的生命点数恢复到了12的同时使受到的淤伤从9降到了5。现在他的生命点数比淤伤点数高了，所以他睁开了充满复仇怒火的眼睛。 <BR>　　<B>处理淤伤：</B>某些攻击要看作淤伤，例如一个普通人的徒手攻击（拳打、脚踢或头顶）。其它的，例如炎热或疲劳，也应该认为是淤伤。你受到的淤伤必须和先前受到的淤伤累加起来。<I>但不要把受到的淤伤从你的生命点数里扣除</I>。它不是“真实的”伤害。不过，如果淤伤点数与生命点数相同，则人物会开始摇晃、站不稳；如果淤伤点数超过了生命点数，则人物会失去意识而不醒人事。不论是达到或是超过生命点数都不是很糟的事情，只是淤伤增加了或是生命点数减少所致。<BR><I>　　令造成普通伤害的武器造成淤伤：</I>你能使用那些会造成普通伤害的武器做出淤伤，但命中率要受到-4的惩罚，因为你只能用刀背击打非致命部位或者控制你的力道。<I><BR>　　令造成淤伤的武器造成普通伤害：</I>你能使用那些会造成淤伤的武器，包括徒手格斗做出普通伤害，但要受到-4的惩罚，因为你只能攻击对方的弱点所在才可以做出普通伤害。 <BR>　　<B>摇摆直至不醒人事：</B>当淤伤与当前生命点数相同时，身体就虚弱地开始摇晃起来。你是那样的虚弱以至于每回合只能做一个次要行动。一旦你当前的生命点数超过淤伤，你就会停止身体的摇摆。 <BR>　　当你的淤伤超过了你的当前生命点数，你会倒在地上不醒人事。当昏迷时，你是丝毫无助，没有一丁点抵抗能力的。<BR>　　昏迷后的每分钟整你都有10%的机会清醒过来，蹒跚摇摆到你的生命点数超过淤伤。即使错过这个机会也不会有更糟的情况出现。 <BR>　　施法者昏迷过后会保留所有昏迷前的法术能力。<BR><B>　　治愈淤伤：</B>淤伤恢复速度为（1点/小时）×人物等级。例如，一个7级巫师每小时可以治愈7点淤伤直到全部恢复（淤伤降为0）。 <BR>　　当用法术或魔法力量治愈人物所受生命点数伤害时，会同时治愈等量的淤伤，如果有的话。 </P>
+<P><B>援助他人</B><BR>　　在战斗中，你可以通过转移对方注意力或干扰对方动作来协同自己的队友进攻或防御。如果当你的队友正在与敌人近身搏斗的时候你恰好在那里，你可以通过一次标准动作来尝试援助你的队友。你掷一个对防护等级为10的攻击检定。如果你通过检定，你的队友攻击检定获得 +2的环境奖励，或者防护等级得到 +2环境奖励（可供你选择）。<BR>　　你也可以用这个行为以别的方式来帮助队友，例如当他处于催眠状态时，或沉睡时。 </P>
+<P><B>攻击物体</B><BR>　　有时你需要攻击或打破一个指定的物体，例如当你想要打碎一尊塑像、敲落敌人的武器或打破一扇门。 </P>
+<P><B>敲打物体</B><BR>　　物体比生物更容易击中，因为它们不会动。但是大多足够十分坚韧，能抵消掉一部分敲打时造成的损坏。 <BR>　　<B>敲打物体是怎么实现的：</B>游荡者Lidda打不开那个由精灵Mialee在一扇密门后发现的宝箱上的锁。于是野蛮人Krusk自告奋勇要用“半兽人的方法”打开它。他用大斧子去砍箱子，造成10点损坏。箱子是用木头做的，硬度为5，因此箱子仅受到5点损坏。箱子的木板有1英寸厚，因此它有10点耐久度。现在它还有5点。Krusk凿穿了木板但没能打开箱子。第2攻击造成的损坏为4点，这还没达到到箱子的硬度，因此箱子不受损坏。第3次攻击，造成了12点（意味着箱子要受到12－5＝ 7点）的损坏，箱子破裂开了。 <BR>但冒险者们并不知道，刚才Krusk敲打所造成的巨大声响已经惊动了附近的一个食人魔，现在它正慢慢地向冒险者们所处方位走过来探察究竟。 <BR>　　<B>物体的防护等级和对物体的攻击奖励：</B>物体是较难或较容易被击中取决于以下几个因素： <BR><I>　　无生命、不动的物体：</I>攻击一个没有生命、不会动的物体与攻击生物不一样，不会引发借机攻击。一个没有生命不会动的物体防护等级为10+它的敏捷修正（无敏捷属性的－5）+它的尺寸修正。不动的物体，例如挂在天花板上的吊灯，十分容易击中。使用近战武器武器，你会获得＋4的攻击奖励。如果你用一个整回合动作进行line up a shot（如同对一个无助的敌人做致命一击），你的近程武器将自动命中而远程武器将得到+5命中奖励。（如果是物体当然对致命一击免疫。） <BR>　　<I>活动物体：</I>活动物体被视为具有防护等级的生物（参见怪物手册）。<BR><I>　　对手的武器和盾牌：</I>请看下文。<BR>　　<I>持握、携带或穿戴的物品：</I>试图攻击对方持握、携带或穿戴的物品会引发对方的借机攻击。例如术士的法杖，当然比较难于攻击。该目标拥有生物自身的敏捷修正（而不是它自己的－5）及任何物体自身可能有的魔法偏转防护奖励。你攻击该物品时不会得到任何特殊的攻击奖励。如果它在生物的手里，它会得到防护等级+5的奖励，因为生物可以迅速地将之移出危险范围。 <BR><B>　　物体的损坏：</B>一个物体能承受的损坏值取决于它是什么做的和它的尺寸。武器对物体的损坏骰数照常。 <BR>　　<I>免疫：</I>无生命的物体对致命一击免疫。物体对淤伤免疫。活动物体因属于结构体因而也对致命一击免疫。 <BR>　　<I>远程武器损坏：</I>物体只受到远程武器一半伤害(except for siege engines and the like)。伤害值要先变为1/2再进行硬度校验。 <BR>　　<I>能量攻击：</I>物体只受到酸系、火系及电系攻击一半的伤害。同样要先减掉一半伤害再进行硬度校验。冰系伤害只有1/4。而音波的攻击伤害值则不受惩罚。 <BR>　　<I>武器无效：</I>DM可以决定哪个武器不能对某个物体作出有效伤害。例如,你很难用弓箭打破一扇门或者用大棒来割断绳子。 <BR>　　<I>针对性攻击：</I>DM可以裁定哪些攻击对某些物体是特别奏效的。例如，用火可以很容易点着一个窗帘或卷轴很容易被撕破。 <BR>　　<B>硬度：</B>每个物体都有一个代表它能抵抗多少损坏的数字即硬度。无论何时一个物体遭受损坏，都要从损坏值中减去它的硬度。只有那些扣除了硬度的损坏值才被记入物体的损坏值(参见表8-12，表8-14及表8-13) 。 <BR>　　<B>耐久度：</B>一个物体能承受的损坏值取决于它是什么做的和它的尺寸。(参见表8-12，8-13 ，及表8-14)。当物体的耐久度到0时，它就被彻底破坏了。 <BR>　　较大的物体的耐久度会分散到它的各个部件。例如,你能攻击并且破坏一个马车的车轮而并不用破坏整个马车。 <BR>　　<B>豁免判定：</B>没有魔法或人防护的物体不作豁免判定，它们的豁免判定被视为自动失败从，因此它们总是（例如）受<I>裂解术</I>影响。被看护的物体（被抓握、被接触或被穿戴）的物体的豁免鉴定与持有者一样。 <BR>　　魔法物品有豁免判定。它的坚忍、反射和意志豁免奖励为＋2＋魔法施放等级的一半。被持有的魔法物品的豁免判定奖励取其自身或持有者豁免奖励中较好的那个。（魔法物品的魔法施放等级在DMG中有说明。） </P>
+<P><BR><B>击打武器</B><BR>　　你能用一件近战武器击打你的对手当前持有的盾或武器。攻击的武器必须与你的武器大小差距在一级以下。（把小圆盾看作小型,小型盾为中等尺寸,大型盾为大型,塔盾为巨型。）这样做会挑起对手的借机攻击，因为你对他的武器表现了过多的兴趣。然后你和防守方相互做攻击判定。 <BR>　　如果你的攻击判定成功，将完成对防守方武器或盾的一次打击。然后对对方武器或盾做伤害判定（参见敲击物体）。 <BR>　　<B>魔法武器及盾：</B>攻击方只有当自己的武器上拥有至少与对方武器或盾一样高的附加属性时才有可能造成伤害。每+1的附加属性会同时增进该武器或护盾的硬度和耐久度。如果你的护盾有+2的附加奖励属性，则它的硬度和耐久度都将获得+2的奖励。 </P>
+<P><B>破坏物体</B><BR>　　当你试着用瞬间的猛力敲击来作出超出常规损坏的攻击，需要做力量检定来判定你是否成功。DC主要取决于物体的构造而非所用材料。例如，以强力打开一扇有一个劣质锁的铁门比劈开它更容易。 <BR>　　如果一个物品失去了一半以上的耐久度，破坏它的DC -2。<BR></P>
+<P>&nbsp; 
+<TABLE width=554 border=1>
+<TBODY>
+<TR>
+<TD colSpan=4><B>表8–11：物体的体积与防护等级</B></TD></TR>
+<TR>
+<TD width=214>
+<DIV align=center><B>体积（示例）</B></DIV></TD>
+<TD width=74>
+<DIV align=center><B>AC修正</B></DIV></TD>
+<TD width=168>
+<DIV align=center><B>体积（示例）</B></DIV></TD>
+<TD width=70>
+<DIV align=center><B>AC修正</B></DIV></TD></TR>
+<TR>
+<TD width=214>Colossal (broad side of a barn)</TD>
+<TD width=74>
+<DIV align=center>–8</DIV></TD>
+<TD width=168>Medium-size (barrel)</TD>
+<TD width=70>
+<DIV align=center>+ 0</DIV></TD></TR>
+<TR>
+<TD width=214>Gigantic (narrow side of a barn)</TD>
+<TD width=74>
+<DIV align=center>–4</DIV></TD>
+<TD width=168>Small (chair)</TD>
+<TD width=70>
+<DIV align=center>+ 1</DIV></TD></TR>
+<TR>
+<TD width=214>Huge (wagon)</TD>
+<TD width=74>
+<DIV align=center>–2</DIV></TD>
+<TD width=168>Tiny (tome)</TD>
+<TD width=70>
+<DIV align=center>+ 2</DIV></TD></TR>
+<TR>
+<TD width=214>Large (big door)</TD>
+<TD width=74>
+<DIV align=center>–1</DIV></TD>
+<TD width=168>Diminutive (scroll)</TD>
+<TD width=70>
+<DIV align=center>+ 4</DIV></TD></TR>
+<TR>
+<TD colSpan=2>&nbsp;</TD>
+<TD width=168>Fine (potion in a vial)</TD>
+<TD width=70>
+<DIV align=center>+ 8</DIV></TD></TR></TBODY></TABLE><BR>
+<TABLE border=1>
+<TBODY>
+<TR>
+<TD colSpan=3><B>表8–12：材质硬度与耐久度</B></TD></TR>
+<TR>
+<TD width=64>
+<DIV align=center><B>材质</B></DIV></TD>
+<TD width=61>
+<DIV align=center><B>硬度</B></DIV></TD>
+<TD width=151>
+<DIV align=center><B>耐久度</B></DIV></TD></TR>
+<TR>
+<TD width=64>纸张</TD>
+<TD width=61>
+<DIV align=center>0</DIV></TD>
+<TD width=151>
+<DIV align=center>&nbsp;2/每吋厚度</DIV></TD></TR>
+<TR>
+<TD width=64>绳索</TD>
+<TD width=61>
+<DIV align=center>0</DIV></TD>
+<TD width=151>
+<DIV align=center>&nbsp;2/每吋厚度</DIV></TD></TR>
+<TR>
+<TD width=64>玻璃</TD>
+<TD width=61>
+<DIV align=center>1</DIV></TD>
+<TD width=151>
+<DIV align=center>&nbsp;1/每吋厚度</DIV></TD></TR>
+<TR>
+<TD width=64>冰</TD>
+<TD width=61>
+<DIV align=center>0</DIV></TD>
+<TD width=151>
+<DIV align=center>&nbsp;3/每吋厚度</DIV></TD></TR>
+<TR>
+<TD width=64>木头</TD>
+<TD width=61>
+<DIV align=center>5</DIV></TD>
+<TD width=151>
+<DIV align=center>10/每吋厚度</DIV></TD></TR>
+<TR>
+<TD width=64>石头</TD>
+<TD width=61>
+<DIV align=center>8</DIV></TD>
+<TD width=151>
+<DIV align=center>15/每吋厚度</DIV></TD></TR>
+<TR>
+<TD width=64>铁</TD>
+<TD width=61>
+<DIV align=center>10</DIV></TD>
+<TD width=151>
+<DIV align=center>30/每吋厚度</DIV></TD></TR>
+<TR>
+<TD width=64>秘银</TD>
+<TD width=61>
+<DIV align=center>15</DIV></TD>
+<TD width=151>
+<DIV align=center>30/每吋厚度</DIV></TD></TR>
+<TR>
+<TD width=64>精金</TD>
+<TD width=61>
+<DIV align=center>20</DIV></TD>
+<TD width=151>
+<DIV align=center>40/每吋厚度</DIV></TD></TR></TBODY></TABLE><BR>
+<TABLE border=1>
+<TBODY>
+<TR>
+<TD colSpan=4><B>表8–13：常见武器和盾牌的精度和耐久度</B></TD></TR>
+<TR>
+<TD width=123>
+<DIV align=center><B>武器</B></DIV></TD>
+<TD width=86>
+<DIV align=center><B>示例</B></DIV></TD>
+<TD width=54>
+<DIV align=center><B>硬度</B></DIV></TD>
+<TD width=65>
+<DIV align=center><B>耐久度</B></DIV></TD></TR>
+<TR>
+<TD width=123>微型利器</TD>
+<TD width=86>匕首</TD>
+<TD width=54>
+<DIV align=center>10</DIV></TD>
+<TD width=65>
+<DIV align=center>1</DIV></TD></TR>
+<TR>
+<TD width=123>小型利器</TD>
+<TD width=86>短剑</TD>
+<TD width=54>
+<DIV align=center>10</DIV></TD>
+<TD width=65>
+<DIV align=center>2</DIV></TD></TR>
+<TR>
+<TD width=123>中型利器</TD>
+<TD width=86>长剑</TD>
+<TD width=54>
+<DIV align=center>10</DIV></TD>
+<TD width=65>
+<DIV align=center>5</DIV></TD></TR>
+<TR>
+<TD width=123>大型利器</TD>
+<TD width=86>巨剑</TD>
+<TD width=54>
+<DIV align=center>10</DIV></TD>
+<TD width=65>
+<DIV align=center>10</DIV></TD></TR>
+<TR>
+<TD width=123>小型金属柄武器</TD>
+<TD width=86>轻型钉锤</TD>
+<TD width=54>
+<DIV align=center>10</DIV></TD>
+<TD width=65>
+<DIV align=center>10</DIV></TD></TR>
+<TR>
+<TD width=123>中型金属柄武器</TD>
+<TD width=86>重型钉锤</TD>
+<TD width=54>
+<DIV align=center>10</DIV></TD>
+<TD width=65>
+<DIV align=center>25</DIV></TD></TR>
+<TR>
+<TD width=123>小型有柄武器</TD>
+<TD width=86>手斧</TD>
+<TD width=54>
+<DIV align=center>5</DIV></TD>
+<TD width=65>
+<DIV align=center>2</DIV></TD></TR>
+<TR>
+<TD width=123>中型有柄武器</TD>
+<TD width=86>战斧</TD>
+<TD width=54>
+<DIV align=center>5</DIV></TD>
+<TD width=65>
+<DIV align=center>5</DIV></TD></TR>
+<TR>
+<TD width=123>大型有柄武器</TD>
+<TD width=86>巨斧</TD>
+<TD width=54>
+<DIV align=center>5</DIV></TD>
+<TD width=65>
+<DIV align=center>10</DIV></TD></TR>
+<TR>
+<TD width=123>巨型杵</TD>
+<TD width=86>食人魔杵</TD>
+<TD width=54>
+<DIV align=center>5</DIV></TD>
+<TD width=65>
+<DIV align=center>60</DIV></TD></TR>
+<TR>
+<TD width=123>小圆盾</TD>
+<TD width=86>—</TD>
+<TD width=54>
+<DIV align=center>10</DIV></TD>
+<TD width=65>
+<DIV align=center>5</DIV></TD></TR>
+<TR>
+<TD width=123>小木盾</TD>
+<TD width=86>—</TD>
+<TD width=54>
+<DIV align=center>5</DIV></TD>
+<TD width=65>
+<DIV align=center>10</DIV></TD></TR>
+<TR>
+<TD width=123>大木盾</TD>
+<TD width=86>—</TD>
+<TD width=54>
+<DIV align=center>5</DIV></TD>
+<TD width=65>
+<DIV align=center>15</DIV></TD></TR>
+<TR>
+<TD width=123>小铁盾</TD>
+<TD width=86>—</TD>
+<TD width=54>
+<DIV align=center>10</DIV></TD>
+<TD width=65>
+<DIV align=center>10</DIV></TD></TR>
+<TR>
+<TD width=123>大铁盾</TD>
+<TD width=86>—</TD>
+<TD width=54>
+<DIV align=center>10</DIV></TD>
+<TD width=65>
+<DIV align=center>20</DIV></TD></TR>
+<TR>
+<TD width=123>塔盾</TD>
+<TD width=86>—</TD>
+<TD width=54>
+<DIV align=center>5</DIV></TD>
+<TD width=65>
+<DIV align=center>20</DIV></TD></TR></TBODY></TABLE><BR>
+<TABLE width=316 border=1>
+<TBODY>
+<TR>
+<TD colSpan=4><B>表8–14：破坏或冲破物品的困难等级</B></TD></TR>
+<TR>
+<TD width=104>
+<DIV align=center><B>力量检定目的</B></DIV></TD>
+<TD width=39>
+<DIV align=center><B>DC</B></DIV></TD>
+<TD width=105>
+<DIV align=center><B>力量检定目的</B></DIV></TD>
+<TD width=40>
+<DIV align=center><B>DC</B></DIV></TD></TR>
+<TR>
+<TD width=104>打破简易门</TD>
+<TD width=39>
+<DIV align=center>13</DIV></TD>
+<TD width=105>扭弯铁棒</TD>
+<TD width=40>
+<DIV align=center>24</DIV></TD></TR>
+<TR>
+<TD width=104>打破优质门</TD>
+<TD width=39>
+<DIV align=center>18</DIV></TD>
+<TD width=105>打破铁栅门</TD>
+<TD width=40>
+<DIV align=center>25</DIV></TD></TR>
+<TR>
+<TD width=104>打破高强度门</TD>
+<TD width=39>
+<DIV align=center>23</DIV></TD>
+<TD width=105>挣断镣铐</TD>
+<TD width=40>
+<DIV align=center>26</DIV></TD></TR>
+<TR>
+<TD width=104>挣断绳索禁锢</TD>
+<TD width=39>
+<DIV align=center>23</DIV></TD>
+<TD width=105>打破铁门</TD>
+<TD width=40>
+<DIV align=center>28</DIV></TD></TR></TBODY></TABLE><BR>
+<TABLE width=405 border=1>
+<TBODY>
+<TR>
+<TD colSpan=4><B>表8–15： 物体硬度与耐久度</B></TD></TR>
+<TR>
+<TD width=204>
+<DIV align=center><B>物体</B></DIV></TD>
+<TD width=53>
+<DIV align=center><B>硬度</B></DIV></TD>
+<TD width=55>
+<DIV align=center><B>耐久度</B></DIV></TD>
+<TD width=65>
+<DIV align=center><B>破坏难度</B></DIV></TD></TR>
+<TR>
+<TD width=204>绳索（直径1吋）</TD>
+<TD width=53>
+<DIV align=center>0</DIV></TD>
+<TD width=55>
+<DIV align=center>2</DIV></TD>
+<TD width=65>
+<DIV align=center>23</DIV></TD></TR>
+<TR>
+<TD width=204>简易木门</TD>
+<TD width=53>
+<DIV align=center>5</DIV></TD>
+<TD width=55>
+<DIV align=center>10</DIV></TD>
+<TD width=65>
+<DIV align=center>13</DIV></TD></TR>
+<TR>
+<TD width=204>矛</TD>
+<TD width=53>
+<DIV align=center>5</DIV></TD>
+<TD width=55>
+<DIV align=center>2</DIV></TD>
+<TD width=65>
+<DIV align=center>14</DIV></TD></TR>
+<TR>
+<TD width=204>小箱子</TD>
+<TD width=53>
+<DIV align=center>5</DIV></TD>
+<TD width=55>
+<DIV align=center>1</DIV></TD>
+<TD width=65>
+<DIV align=center>17</DIV></TD></TR>
+<TR>
+<TD width=204>优质木门</TD>
+<TD width=53>
+<DIV align=center>5</DIV></TD>
+<TD width=55>
+<DIV align=center>15</DIV></TD>
+<TD width=65>
+<DIV align=center>18</DIV></TD></TR>
+<TR>
+<TD width=204>储藏柜</TD>
+<TD width=53>
+<DIV align=center>5</DIV></TD>
+<TD width=55>
+<DIV align=center>15</DIV></TD>
+<TD width=65>
+<DIV align=center>23</DIV></TD></TR>
+<TR>
+<TD width=204>坚固木门</TD>
+<TD width=53>
+<DIV align=center>5</DIV></TD>
+<TD width=55>
+<DIV align=center>20</DIV></TD>
+<TD width=65>
+<DIV align=center>23</DIV></TD></TR>
+<TR>
+<TD width=204>石墙（厚1呎）</TD>
+<TD width=53>
+<DIV align=center>8</DIV></TD>
+<TD width=55>
+<DIV align=center>90</DIV></TD>
+<TD width=65>
+<DIV align=center>35</DIV></TD></TR>
+<TR>
+<TD width=204>毛石（厚3呎）</TD>
+<TD width=53>
+<DIV align=center>8</DIV></TD>
+<TD width=55>
+<DIV align=center>540</DIV></TD>
+<TD width=65>
+<DIV align=center>50</DIV></TD></TR>
+<TR>
+<TD width=204>链条</TD>
+<TD width=53>
+<DIV align=center>10</DIV></TD>
+<TD width=55>
+<DIV align=center>5</DIV></TD>
+<TD width=65>
+<DIV align=center>26</DIV></TD></TR>
+<TR>
+<TD width=204>镣铐</TD>
+<TD width=53>
+<DIV align=center>10</DIV></TD>
+<TD width=55>
+<DIV align=center>10</DIV></TD>
+<TD width=65>
+<DIV align=center>26</DIV></TD></TR>
+<TR>
+<TD width=204>大师制品镣铐</TD>
+<TD width=53>
+<DIV align=center>10</DIV></TD>
+<TD width=55>
+<DIV align=center>10</DIV></TD>
+<TD width=65>
+<DIV align=center>28</DIV></TD></TR>
+<TR>
+<TD width=204>铁门（厚2吋）</TD>
+<TD width=53>
+<DIV align=center>10</DIV></TD>
+<TD width=55>
+<DIV align=center>60</DIV></TD>
+<TD width=65>
+<DIV align=center>28</DIV></TD></TR></TBODY></TABLE></P>
+<P><B>猛撞</B><BR>　　你能将猛撞作为一个攻击行动或一个冲锋行动。当你猛撞时，你试图推开对手而不是攻击他。你仅能猛撞和你的体形差距在一级以下的对手。 <BR>　　<B>开始猛冲：</B>首先,你移动到防守方区域。移动使能威胁到你的每个敌人都会借机攻击你，可能包括防守方。在猛撞期间对你借机攻击的除防守方以外的敌人都会有25%的几率误中防守方，并且在猛撞期间任何对防守方做借机攻击的除你以外的人都会有25%的几率误中你。（当某人做借机攻击时，她要先做攻击检定来判定攻击是否误中他人。） <BR>　　其次，你和防守方相互做力量检定。比中等尺寸每大一个级别获得+4的奖励，小则受到-4的惩罚。如果你正在冲锋则再得到+2奖励。如果防守方有超过2条腿或异常稳定，他将得到+4的稳定奖励。 <BR>　　<B>猛撞的结果：</B>如果你胜过防守方，你可以推得他退后5尺。如果你希望与防守方一起移动，你可以使他退回等同于你超出他的力量检定数目的步数。但无论如何你不可能超出正常的活动范围。（注意：如果防守方被推动则会作出借机攻击。如果你被推动也一样可以借机攻击。如果你与对方一起移动而并不做借机攻击则此行动结束） <BR>　　如果你没能在力量检定上胜过对方，则你将向自己冲过来的路线退回5尺。如果那个区域被人占据，则你将摔倒在那个区域（参见表 8-8）。 </P>
+<P><B>缴械</B><BR>　　混战时你可以尝试缴械。不过你会因此受到对方的借机攻击。然后你们双方对各自的武器做攻击检定。如果武器尺寸大小不同，尺寸每大一个级别会得到+4的攻击奖励。如果防守方使用双手武器则得到+4奖励。如果你击败防守方，则他将被缴械。如果你是空手缴缴，那么现在武器在你手里。否则，它会掉在防守方的脚边上。如果你失败了，则防守方会很快地反应过来并且尝试缴你的械，步骤同上。 <BR>　　注意：即使防守方戴了穿刺手套（第100页）也不能避免被缴械。使用一件带有固定护手的武器（第106页）可以在对手试图缴他的械时得到+10的奖励。 </P>
+<P>&nbsp; 
+<TABLE cellSpacing=0 cellPadding=2 width="100%" border=1>
+<TBODY>
+<TR>
+<TD>（以下部分译者：link） </TD></TR></TBODY></TABLE></P>
+<P><B>擒抱</B><BR>　　它意味着你将和敌人扭斗，并且是极接近的苦斗。在进行擒抱的时候，会有一些复杂的情况，但当你想制服敌人而不是杀死他们，或者在别无选择的情况下，你必须采用该攻击方式。对于怪物来说，擒抱意味着它可以将你置于它的利爪之下（紫蠕虫常用的攻击手段），或者是将你放倒，然后再考虑怎样在你的身上动口（恐狮的攻击方式）。 </P>
+<P><B>擒抱判定</B><BR>　　在擒抱中要重复地做擒抱的对抗判定。它有些类似于攻击判定。你的擒抱判定奖励为：<BR>　　　　　　　　　　<B>基本攻击奖励值＋强壮修正值＋特殊体型奖励值</B> </P>
+<P>　　<B>特殊体型修正值：</B>擒抱的特殊体型修正值如下：Colossal +16，Gargantuan +12，Huge +8，Large +4，Medium-size +0，Small -4，Tiny -8，Diminutive -12，Fine -16。这些数值应用于在正常攻击判定中应用体型修正处。 </P>
+<P><B>开始擒抱</B><BR>　　当你开始擒抱的时候你必须先抓住并定住你的目标。尝试擒抱等同于进行近身攻击。如果你在一个回合中可以攻击多次，那么，你也可以在一个回合中尝试多次的擒抱敌人（以渐低的基本命中奖励值）。僧侣在擒抱的时候可以使用他的徒手攻击速率。<BR>　　<B>借机攻击：</B>当你试图擒抱一个目标的时候，他将获得一次借机攻击。如果该次攻击对你造成了伤害，那么你的这次尝试将失败。（一些怪物在进行擒抱攻击的时候将不会遭到借机攻击）。<BR>　　<B>抓拽：</B>你必须对目标进行一次近身接触攻击以抓住你的目标。如果你没有命中，那么，该次擒抱失败。<BR>　　<B>扣住敌人：</B>进行一次擒抱的对抗判定，如果你成功了，你将开始擒抱目标，并对该目标施加了伤害，该伤害被认定是徒手攻击。如果你失败，那么，开始擒抱这个动作也将失败。当目标生物比你的体型大2级或更大的时候，你将无法扣住对手（但你依然可以试者抓住它，如果你仅仅只是想抓住它）。<BR>　　<B>接近：</B>为了能够维持擒抱的状态，你必须进入到目标的区域中。在一般的情况下，该动作会受到其他你处于其攻击范围内敌人的借机攻击，但是，你的目标不能因此而攻击你。<BR>　　<B>擒抱：</B>你和你的目标现在处于擒抱状态。 </P>
+<P><B>加入擒抱</B><BR>　　如果你的目标已经和其他的人擒抱在一起，那么，你可以进行攻击开始一次擒抱。见上文，你的目标将不会对你进行借机攻击，并且你的抓拽被认为是自动成功。你还必须进行一次擒抱施加的伤害的成功的检定并且进入到擒抱的空间内。</P>
+<P><B>如果你在擒抱状态</B><BR>　　当你处于擒抱状态（无论是谁先开始擒抱的），你可以对敌人进行擒抱的对抗判定作为一次攻击。如果你成功了，那么，你可以有以下的动作：<BR>　　<B>伤害你的敌人：</B>你对敌人进行了一次成功的徒手攻击（中体型生物造成1d3的伤害，小体型则是1d2点，再附加强壮修正值）。如果你想造成正常的伤害，那么，你在进行该检定的时候在攻击判定上将会受到-4的惩罚。 <BR>　　例外：僧侣在徒手攻击的时候比其他的职业可以有更多的伤害，他的伤害和正常的时候一致。他们也可以在擒抱的的时候将他们的伤害改变为淤伤，不会受到-4的惩罚（参见第135页处理淤伤）。<BR>　　<B>限定行动：</B>你使得你的对手在1个回合内失去行动力。（如果你在1回合里可以攻击多次，那么你可以在随后的攻击中给对手造成伤害。你不能对一个已经被限制的的目标使用武器或者尝试第二次的对你的对手再次进行该动作。）当你被限定行动的时候，其他没有与你擒抱的敌人在攻击你的时候获得了+4的奖励（但是你并不处于无助状态）。<BR>　　<B>打断别的限定行动：</B>你可以打断敌人对你的一个盟友的行动限制。<BR>　　<B>逃跑：</B>你在擒抱的时候可以逃跑。在擒抱的时候，可以采用任何你可能使用的动作。如果有不止一个敌人与你擒抱在一起，那么，你在投骰的时候必须要通过所有敌人的检定。（当敌人没有限定你行动的意图时，他们不会尝试去抓住你）。 </P>
+<P>如果你处于被限制行动状态<BR>　　当一个敌人通过擒抱限制了你的行动，你将被定住（非无助状态）失去行动力1个回合。你依然可以进行一次对抗擒抱的检定来作为近身攻击，如果你成功了，那么你将可以从被定身的状态中解脱开来，但是你仍然处于擒抱状态。 </P>
+<P><B>擒抱时其它选择</B><BR>　　在进行擒抱的对抗判定时，你还可以有以下一些选择：<BR>　　<B>武器：</B>你可以在擒抱的时候用轻武器进行攻击（但是在限定他人行动或者自己被限定行动的时候不行）。而擒抱时不能使用双武器进行攻击。<BR>　　<B>法术：</B>如果法术的施展时间时间不超过一个动作的时间，无需肢体动作，你的手中握有所需法术材料并能够集中精力，那么，你可以在擒抱，甚至在被限定行动的时候施法。那些需要精确、细心的动作的法术，例如以银粉画一个圆环以施展防护邪恶的法术，在处于擒抱和被限定状态下是不可能施展的。如果法术是属于你在擒抱状态的可以施展的类型，依然要进行一次集中的检定（困难等级20+法术等级）以保证它的成功施放，如果没有通过，施法将被认为是失败。<BR>　　<B>挣脱：</B>你可以进行一次脱逃技巧的检定（和你的敌人的擒抱检定进行对抗检定）以试图从擒抱或者被限定行动中挣脱（即你处于擒抱的状态当中）。该动作被认为是标准动作；如果你从擒抱中挣脱，在同一个回合里，你还可以移动。</P>
+<P><B>多角色擒抱</B><BR>　　几个格斗者可以擒抱成一团。最多4个格斗者可以在一个给定的回合里缠斗在一起。体形比你大一个类型的生物将算2个，体形大2个类型的算4个。例如，如果你是中等体型，那么，两个兽人（大体型）或者一个山岳巨人（Huge）可以和你擒抱在一起。同样，4个地精（算2个敌人）加一个兽人（算2个敌人）可以和你擒抱在一起。 <BR>那些在战团之外的敌人，可以以援助动作（135页）来援助他们的同伴。 </P>
+<P><B>擒抱的影响</B><BR>　　当你处于擒抱状态，你攻击敌人及对自己的保护都受到了限制。 <BR>　　<B>无威胁区域：</B>在擒抱状态，你将不会有任何的攻击范围。 <BR>　　<B>无敏捷防护奖励：</B>当你和你的敌人在缠斗状态的时候，当不与你缠斗的敌人攻击你的时候，你的防护等级的敏捷修正值（如果你有的话）将不起作用（但是你依然可以将它运用于和你擒抱的敌人）。 </P>
+<P><B>榴弹类武器的攻击</B><BR>　　该类武器是可以“爆裂”的。它有足够宽的攻击范围，只要它落在目标的附近，就可以伤害到他们。榴弹类武器包括了带有酸液或者燃素的瓶子。当进行该类攻击的时候，必须进行远程触及攻击的投骰。直接命中的话，进行直接命中伤害判定（见表格7-10榴弹类武器，114页） <BR>　　如果你没有击中目标，投1d6决定武器落地的地方与目标的距离，最少1尺，最多6尺。之后，投1d8决定该武器偏移的方向：1表示偏远，2表示偏远偏右，3为偏右，4为偏近偏右，5为偏近，6为偏近偏左，7为偏左，8为偏远偏左。<BR>　　一旦你知道了瓶子落地的方位，那么它就将会对所有5尺范围内的生物造成溅射性伤害（见表格7-10榴弹类武器，114页）。 </P>
+<TABLE cellSpacing=0 cellPadding=2 width="100%" border=1>
+<TBODY>
+<TR>
+<TD>（以下部分译者：bal） </TD></TR></TBODY></TABLE>
+<P><B>马上战斗</B><BR>　　骑乘一匹战马在战斗中带给你很多的优势，前提是你有一匹好马和良好的骑乘技能。（参见72页的骑乘技能和83页的马上战斗特技）<BR>　　<B>战斗中使用的马：</B>战马和小型战马是专为战斗准备的。而其它的无论轻型马、小型马或是重型马在战斗中都会受惊。如果这时你不下马，就要进行骑乘技能检定（DC 20） 。试图控制这一匹马一样要算作一次移动行为。如果成功，你还可以在这次移动行为之后作一次部分动作。如果失败，你的这个回合就结束了。（即意味着你将不能做任何动作直到下个回合开始）<BR>　　战马的主动性随骑乘人而改变，就象控制人自己一样。你以马的速度移动，但属于马自己的行为。 <BR>　　真正的马（不是小马）是一种身材修长、体型高大的生物（参看战斗中的各种生物，131页）。它在战场上所占面积比你要大。一匹马大概占据5-10尺的地方，而你平躺下来也只有5尺左右。简单地说，可以认为你只占据马的后半部分。 <BR>　　<B>骑马时的战斗：</B>骑马时一旦通过了骑乘检定（DC 5），就可以通过膝盖指挥你的坐骑如同象用自己的双手进攻或防守。 <BR>　　如果你的坐骑移动超过了5尺，你就只能进行部分近身攻击。基本上，在你攻击之前你只能坐在马上等着接近敌人，所以你并无法进行整回合攻击。 <BR>　　当你攻击一个步行的体型中等或较小的生物时，因为居高临下所以会得到近程武器+1的奖励。 <BR>　　当坐在马上冲锋时，用长矛可造成双倍伤害。 <BR>　　当你的坐骑以双倍速度移动时，你可以使用你的远程武器，但要受到-4的惩罚。当你的坐骑以四倍速度奔跑时，你也可以使用你的远程武器，但要受到-8的惩罚。总之你可以在你的坐骑移动到一半时攻击。你甚至可以训练自己在马移动时作出一次整回合攻击动作。或者利用你的类移动动作（因为你本人实际上并未移动），这样你就可以在马移动时重新装填你的轻型十字弓并发射出去，而这一切只需要一回合。 <BR>　　<B>在马上施法：</B>如果你的坐骑在你施法前或后以平常速度行进的话，你可以在马上施法。但如果在施法前后都进行移动，你就必须在马行进时施法，这样就要进行集中检定来对抗强烈的颠簸（DC为10+法术等级），如果未通过则施法失败。如果坐骑以四倍速度奔跑，你可以在坐骑加速到两倍速度时施法，但对抗更猛烈的颠簸的集中检定会更困难（DC为15+法术等级）。 <BR>　　<B>如果你的坐骑在战斗中倒下：</B>如果你骑在坐骑上时坐骑倒下了，你可以通过一次骑乘技能检定（DC 15）来试图软着陆。如果检定失败，则受到1d6的伤害。 <BR>　　<B>如果你坠马：</B>如果你被打到人事不省，你有50%的机会继续骑在鞍上（如果是军用马鞍则有75%机会），或者掉下马并受到1d6的伤害。没有你控制战马，它会避开战场的战斗。</P>
+<P><B>穿越</B><BR>　　你可以把穿越作为冲锋的一部分。你只能穿越和你的体形差距在一级以下的对手。你每次行动只能进行一次冲刺。 <BR>　　穿越发生于冲锋的运动中。当穿越发生时，你可以尝试刮倒对方或者越过敌人(快速地穿过敌人区域) <BR>　　首先，你在到达对方区域之前必须直线向防守方跑至少10尺（当然与此同时会遭到借机攻击）。 <BR>　　接着防守方会选择避开你或阻止你。如果他避开了，你当然会继续移动乃至穿越他。（你总是可以穿越那些由允许你通过的人占有的区域。）如果他试图阻止你，与对方进行一次绊倒攻击判定。如果你成功地绊倒了对方，你就可以继续直线冲刺。 <BR>　　如果你失败并反过来被绊倒，你会前倾并倒在敌人的区域里。如果你失败但并未被绊倒，你只能倒退5尺。如果回退的地域被别人占据，你将摔倒在这个区域。 </P>
+<P><B>绊倒</B><BR>　　你可以尝试去近距离绊倒敌人。你只能绊倒和你的体形差距在一级以下的对手。 <BR>　　<B>绊倒攻击：</B>这是个近距离接触攻击。一旦攻击成功，则投强壮检定与对方的敏捷或强壮检定做比较（选择修正值高的那个属性）。斗士的体型每大于被攻击者一个等级则获得+4 的奖励，相反如果小于，则受到-4的惩罚。防守方每多出两条腿或明显下盘较普通人型生物稳则获得+4的奖励。如果你胜出了，则绊倒了防守方。如果检定没成功，则攻守互易，防守方立即投强壮检定来试图将你绊倒（如果双方总是通不过，则可能陷入相持局面）<BR>　　<B>被绊倒（倒地）：</B>一个被绊倒的人是俯卧姿势（参看表 8-8）。从地上爬起来被看做一次移动。<BR>　　<B>绊倒骑马者：</B>你可以绊倒一个坐在坐骑上的人。防守方必须以他的骑术代替强壮或敏捷检定。如果你成功，将使对方从马上摔下来。</P>
+<P><B>驱退和责退不死生物</B><BR>　　善良的牧师、圣武士和一些中立的牧师可以引导神圣力量来赶走或干脆毁灭不死生物。而邪恶方和另一些中立的牧师可以通过负面力量来威慑不死生物，控制它们乃至支持它们。</P>
+<P><B>超度的运用</B><BR>　　牧师Jozan及他的队友们正与由一个妖鬼带领的7个食尸鬼对峙。Jozan高举他的太阳圣盘召唤强大的善良力量试图赶走不死生物。<BR>　　首先，扮演者作一个超度检定（1d20+魅力修正）去决定Jozan的这个举动所能影响的最强不死生物。结果是9，所以他只能超度生命骰数比他等级数低的不死生物。Jozan是3级人物，所以只能超度生命骰数为2或1的不死生物（比如骷髅），但对妖鬼等生命骰数高的则毫无影响。由于他没能达到食尸鬼和妖鬼的等级的两倍，所以不能对它们造成任何伤害。 <BR>　　接下来，略过他进行伤害判定（2d6+JOZAN的级别+魅力修正）的过程，来看看他能超度总共多少生命骰数的生物，结果投出的是11，这已经足够超度最靠近他的5个食尸鬼（骰数为10正好小于11）。于是只剩下了两个食尸鬼和一个妖鬼。（多投的那点浪费了，因为那里没有生命骰数为1的不死生物）<BR>　　在JOZAN的第二回合中，他试图再次超度。这次他的超度检定是21，可以超度生命骰数高达6的不死生物。随后他掷了伤害骰数，只有7，所以只能超度骰数总和7的不死生物。他超度了两只距离最近的食尸鬼（2HD），但剩下了3点不足以超度生命骰数为4的妖鬼。 </P>
+<P><B>超度检定</B><BR>　　超度不死生物是一种由牧师释放的超自然力量。它不会引起借机攻击。释放者必须高举圣符进行超度。超度被视为是攻击行为。 <BR>　　<B>每日超度次数：</B>你可以每天进行一定次数的超度，次数为3+魅力修正值。并且随着额外的超度特技的上升而增加。（第32页）<BR>　　<B>距离：</B>你首先会超度离你最近的不死生物，最远不超过60尺，相对你而言被完全遮住的不死生物不能被超度。 <BR>　　<B>超度检定：</B>首先你要做的就是掷一个骰子来决定你所能超度的最强生物是什么。这与魅力有关（1d20＋魅力修正）。表8-16：超度不死生物会告诉你每个级别所能超度的最强不死生物的生命骰数。你不能超度任何生命骰数高于表内所给出的数据的不死生物。 <BR>　　<B>超度伤害：</B>如果你掷出的骰子对照表8-16，足够对60尺内的不死生物作出伤害的话，投2d6+牧师等级+魅力修正就可得到超度的伤害值，也就是你所能超度的不死生物的生命骰数的总和是多少。 <BR>　　如果你的魅力一般或者较低，可能会出现掷出的数值低于表8-16提到的数值。这样的话，你甚至没有能力去超度任何不死生物。举例来说，一个1级且魅力值一般的牧师投出超度检定19，这足以超度一只WIGHT，但随后投伤害骰子却只有3--根本不足以对这只WIGHT造成任何伤害。 <BR>　　你可以忽略那些已被超度过但仍在60尺以内的不死生物（混乱中），这样你就不用在它们身上浪费你的超度法力了。 <BR>　　<B>超度的效果和持续时间：</B>超度不死生物使它们远离你是最快最有效的解决方法。它们在10回合（1分钟）内会不停地尝试逃跑，如果没能跑掉，它们会陷入无尽的恐慌之中（此时攻击它们会获得+2的命中奖励）。 <BR>　　<B>摧毁不死生物：</B>如果你的等级有对方生命骰数的两倍或更多，你将彻底毁灭那些被你超度的不死生物。 </P>
+<TABLE width=300 border=0>
+<TBODY>
+<TR>
+<TD colSpan=2><B>表8-16：超度不死生物</B></TD></TR>
+<TR>
+<TD width=106>
+<DIV align=center><B>超度检定值</B></DIV></TD>
+<TD width=184>
+<DIV align=center><B>所能影响的最强不死生物<BR>(最大生命骰数) </B></DIV></TD></TR>
+<TR>
+<TD width=106>
+<DIV align=center>小于等于0</DIV></TD>
+<TD width=184>
+<DIV align=center>牧师级别－4</DIV></TD></TR>
+<TR>
+<TD width=106>
+<DIV align=center>1－3</DIV></TD>
+<TD width=184>
+<DIV align=center>牧师级别－3</DIV></TD></TR>
+<TR>
+<TD width=106>
+<DIV align=center>4－6</DIV></TD>
+<TD width=184>
+<DIV align=center>牧师级别－2</DIV></TD></TR>
+<TR>
+<TD width=106>
+<DIV align=center>7－9</DIV></TD>
+<TD width=184>
+<DIV align=center>牧师级别－1</DIV></TD></TR>
+<TR>
+<TD width=106>
+<DIV align=center>10－12</DIV></TD>
+<TD width=184>
+<DIV align=center>牧师级别＋0</DIV></TD></TR>
+<TR>
+<TD width=106>
+<DIV align=center>13－15</DIV></TD>
+<TD width=184>
+<DIV align=center>牧师级别＋1</DIV></TD></TR>
+<TR>
+<TD width=106>
+<DIV align=center>16－18</DIV></TD>
+<TD width=184>
+<DIV align=center>牧师级别＋2</DIV></TD></TR>
+<TR>
+<TD width=106>
+<DIV align=center>19－21</DIV></TD>
+<TD width=184>
+<DIV align=center>牧师级别＋3</DIV></TD></TR>
+<TR>
+<TD width=106>
+<DIV align=center>22以上</DIV></TD>
+<TD width=184>
+<DIV align=center>牧师级别＋4</DIV></TD></TR></TBODY></TABLE>
+<P><B>邪恶牧师与不死生物</B><BR>　　邪恶牧师通过负面力量来威慑或控制不死生物而不是呼唤正面力量来驱逐或毁灭它们。邪恶牧师一样要作超度检定，只是那些被吓跑的现在会被威慑住，而那些被毁灭的现在会被控制。 <BR>　　<B>威慑：</B>一个被威慑住的不死生物会敬畏地缩成一团。（攻击这个不死生物命中会得到+2的奖励。）影响将持续10回合。 <BR>　　<B>控制：</B>一个被控制住的不死生物处于邪恶牧师的心灵控制下。牧师需要对它们下命令才可以控制它们的行为。任何时候邪恶牧师所控制的不死生物的生命骰数总和不能超过他的等级。他可以随时取消对某个不死生物或生物的控制，来获得对新的不死生物的控制权。 <BR>　　不过，他也可以控制单个生命骰数比他等级高的不死生物，只不过他必须不断地超度来维持（就象全神贯注地运用神术一样），而且他也不能再同时控制别的不死生物。 <BR>　　<B>抵消超度：</B>邪恶牧师可以通过负面力量来抵消善良牧师的超度影响。邪恶牧师通过超度检定来威慑那些不死生物。如果邪恶牧师的超度检定结果不小于善良牧师的结果的话，不死生物就不会被超度。邪恶牧师进行伤害判定 2d6+牧师等级+魅力修正 来决定他所能影响总共多少生命骰数的不死生物（就象是他在威慑它们一样，而不是善良牧师在超度）。 <BR>　　<B>支援不死生物：</B>邪恶牧师可以赋予不死生物抵抗超度的能力。他进行一次超度检定，按表8-16 得出的生命骰数如果比不死生物的生命骰数高的话，在超度有效距离内就由这个骰数来代替原来不死生物的生命骰数，持续10回合。 </P>
+<P><B>中立牧师与不死生物</B><BR>　　中立牧师（既不善良但也不邪恶）既可以只驱逐而不威慑不死生物，也可以只威慑而不赶走它们。你在创建中立牧师角色时可以选择对不死生物的影响是什么，从那时他就将拥有那种力量。本质上中立牧师同时具有善良和邪恶两种力量。有些神诋会特别规定信奉他的牧师对不死生物的影响是什么。 <BR>　　即使是中立牧师，呼唤正面力量一样是善良的行为，而呼唤负面力量则相反是邪恶的行为。 </P>
+<P><B>圣武士和不死生物</B><BR>　　圣武士可以作为比他实际等级低两级的牧师来超度不死生物。这意味着圣武士直到第三级才可以超度不死生物，而且只相当于一级的牧师。</P>
+<P><B>能量的其他用途</B><BR>　　正面和负面力量除了影响不死生物之外还有很多用途。一个圣坛可以以一道魔法之门守护，只有超度检定足够超度3点生命骰数的不死生物且是善良牧师才可以通过，而邪恶牧师即使同样做到这一点也不能通过。 </P>
+<P></P>
+<P><B>徒手攻击</B><BR>　　用拳头、脚、头作为武器来进攻。 <BR>　　<B>借机攻击：</B>徒手攻击全副武装的人会导致对手一次借机攻击，这次进攻会在你出手之前。但那些装备弓箭的敌人或和你一样空着手的人并不会获得借机攻击机会。你之所以被借机攻击是因为你不得不靠近敌人。 <BR>　　<B>被视为“武器”攻击的徒手攻击：</B>有时候一个人物或怪物攻击时虽然是空着手，但算用武器攻击。象一个有徒手搏斗改善特技的僧侣（见83页），一个施放了接触攻击法术的法师，或一个用天生的爪、牙等类似武器攻击的统统算是用武器攻击。值得注意的是这无论对进攻方还是防守方都成立。也就是说，僧侣不仅进攻有装备的人时不会被借机攻击，而且你进攻时也会被僧侣借机攻击。 <BR>　　<B>徒手攻击的伤害：</B>中等体型的人能造成1d3的伤害（象往常一样再加上力量修正），小体型生物造成1d2的伤害。伤害为淤伤。徒手攻击被视为轻型武器（在计算双武器格斗处罚时）<BR>　　<B>造成普通伤害：</B>你可以在你进行攻击判定之前指定徒手攻击，但你的命中率将受到-4的惩罚，因为你徒手攻击的同时也让自己处于易受攻击的境地。</P>
+<P align=right><BR><B>第八章 完</B></P></td>
+                          </tr>
+                          <tr>
+                            <td height="13" align="right" valign="top">                    <tr>
+                      <td valign="top" align="right"><span class="normalfont"><b>责任编辑:</b>
+                        dexter_yy</span></td>
+                    </tr></td>
+                          </tr>
+                        </table>
+                        <p><table cellpadding=4 width="100%" border=0 cellspacing="1">
+  <form action="article.php" method="get">
+    <tr>
+      <td align="right">
+        
+        </td>
+    </tr>
+    <tr>
+      <td align="right">
+        <input type="hidden" name="articleid" value="143">
+        <select name="pagenum" onChange="window.location=('http://www.ntrpg.org/yy/undertopia/article.php?articleid=143&pagenum='+this.options[this.selectedIndex].value)">
+          <option value="-1" >--文章内容列表--</option>
+          <option value="-1">--------------------</option>
+                    <option value="1"> 1 - 战斗基础 </option><option value="2"> 2 - 战斗中的动作 </option><option value="3"> 3 - 受伤、死亡及治疗 </option><option value="4"> 4 - 移动及位置 </option><option value="5"> 5 - 战斗修正 </option><option value="6"> 6 - 特殊主动行动 </option><option value="7"> 7 - 特殊攻击及伤害 </option>
+        </select>
+        <input type="submit" value="GO" class="button">
+      </td>
+    </tr>
+  </form>
+</table>
+  </p></td>
+                    </tr>
+                  </table>
+                  <p>&nbsp;</p>
+                  <table width="94%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr align="center"> 
+                            <td height="55"> 
+                              <table width="99%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="3%" height="38" background="../../images/BAR1.gif"><img src="../../images/BAR1_LEFT.gif" width="17" height="38"></td>
+                                  <td width="95%" align="center" background="../../images/BAR1.gif">
+								  <table width="100%" border="0" cellspacing="0" cellpadding="4">
+                                      <tr align="center" bgcolor=""> 
+                                        <td width="20%" nowrap><span class="normalfont"><b><a href="../../comment.php/action=add/articleid=143.html"><font color="#FFFF00" size="2">发表评论</font></a></b></span></td>
+                                        <td width="20%" nowrap><span class="normalfont"><b><a href="../../comment.php/action=view/articleid=143.html"><font color="#FFFF00" size="2">查看评论</font></a></b></span></td>
+                                        <td width="20%" nowrap><span class="normalfont"><b><a href="../../favorite.php/action=add/articleid=143/pagenum=7.html"><font color="#FFFF00" size="2">加入收藏</font></a></b></span></td>
+                                        <td width="20%" nowrap><span class="normalfont"><b><a href="../../recommend.php/articleid=143/pagenum=7.html"><font color="#FFFF00" size="2">Email给朋友</font></a></b></span></td>
+                                        <td width="20%" nowrap><span class="normalfont"><b><a href="../../print.php/articleid=143.html"><font color="#FFFF00" size="2">打印本文</font></a></b></span></td>
+                                      </tr>
+                                    </table>
+								  
+								  </td>
+                            <td width="2%" background="../../images/BAR1.gif"><img src="../../images/BAR1_RIGHT.gif" width="17" height="38"></td>
+                          </tr>
+                        </table>
+							
+							</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr align="center">
+                <td width="56%" align="left"><span class="normalfont">一名沙华鱼人似乎注意到了你的疑惑：“阁下，如果你想对该文章评分，请先携带有效证件到Undertopia<a href="../../member.php/action=login.html">城管办事处</a>登记，如果你还没有成为我们地下城的合法居民，请看头顶上方，那有一只丑陋的<a href="../../register.php.html">眼魔</a>，它会给你把事情办妥”。</span> </td>
+                <td width="44%">
+                  <table border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td><span class="normalfont"><b>平均得分 0, 共 0 人评分</b></span></td>
+                    </tr>
+                    <tr>
+                                  <td height="44"> 
+                                    <table border="0" cellspacing="1" cellpadding="2">
+                          <tr>
+                            <td width="10" height="20" valign="bottom"><img src="../../images/bar.gif" border="0" width="10" height="1"></td>
+                            <td width="10" height="20" valign="bottom"><img src="../../images/bar.gif" border="0" width="10" height="1"></td>
+                            <td width="10" height="20" valign="bottom"><img src="../../images/bar.gif" border="0" width="10" height="1"></td>
+                            <td width="10" height="20" valign="bottom"><img src="../../images/bar.gif" border="0" width="10" height="1"></td>
+                            <td width="10" height="20" valign="bottom"><img src="../../images/bar.gif" border="0" width="10" height="1"></td>
+                            <td width="10" height="20" valign="bottom"><img src="../../images/bar.gif" border="0" width="10" height="1"></td>
+                            <td width="10" height="20" valign="bottom"><img src="../../images/bar.gif" border="0" width="10" height="1"></td>
+                            <td width="10" height="20" valign="bottom"><img src="../../images/bar.gif" border="0" width="10" height="1"></td>
+                            <td width="10" height="20" valign="bottom"><img src="../../images/bar.gif" border="0" width="10" height="1"></td>
+                            <td width="10" height="20" valign="bottom"><img src="../../images/bar.gif" border="0" width="10" height="1"></td>
+                          </tr>
+                          <tr>
+                            <td nowrap align="center"><span class="smallfont">1</span></td>
+                            <td nowrap align="center"><span class="smallfont">2</span></td>
+                            <td nowrap align="center"><span class="smallfont">3</span></td>
+                            <td nowrap align="center"><span class="smallfont">4</span></td>
+                            <td nowrap align="center"><span class="smallfont">5</span></td>
+                            <td nowrap align="center"><span class="smallfont">6</span></td>
+                            <td nowrap align="center"><span class="smallfont">7</span></td>
+                            <td nowrap align="center"><span class="smallfont">8</span></td>
+                            <td nowrap align="center"><span class="smallfont">9</span></td>
+                            <td nowrap align="center"><span class="smallfont">10</span>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+                        </table></td>
+                    </tr>
+                    <tr>
+                      <td height="25" align="center"><P><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td align="center"><table width="95%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="2%" height="19" background="../../images/BAR1.gif"><img src="../../images/BAR1_LEFT.gif" width="17" height="38"></td>
+                 
+                      <td width="95%" align="center" background="../../images/BAR1.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr align="center"> 
+                            <td height="16" align="left"><font color="#FFFFFF" size="2"><b>最新评论 
+                              (共有 1 条评论)</b></font><td>
+                          </tr>
+                        </table>
+                        <span class="normalfont"></span></td>
+                      <td width="3%" background="../../images/BAR1.gif"><img src="../../images/BAR1_RIGHT.gif" width="17" height="38"></td>
+                    </tr>
+                    <tr align="left" valign="top"> 
+                      <td height="51" colspan="3"> 
+                        <p><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td width="40%" height="20">&nbsp;</td>
+                            <td width="19%" align="center"><font color="#333300" size="2"><span id="tbh"><b>发表时间</b></span></font></td>
+                            <td width="20%" align="center"><font color="#333300" size="2"><span id="tbh"><b>作者</b></span></font></td>
+                            <td width="21%" align="center"><font color="#333300" size="2"><span id="tbh"><b>回复</b></span></font></td>
+                          </tr>
+                          <tr> 
+                            <td height="21"><span class="normalfont"><a href="../../message.php/action=view/commentid=344.html">写的不错！</a></span></td>
+                            <td width="19%" align="center"><span class="normalfont">2005-09-02 17:05 pm</span></td>
+                            <td width="20%" align="center"><span class="normalfont">chiese1xu</span></td>
+                            <td width="21%" align="center"><span class="normalfont">0</span></td>
+                          </tr>
+                        </table></p>
+                        <p><span></span></p></td>
+                    </tr>
+                    <tr align="right">
+                      <td height="10" colspan="3"><span><b><a href="../../comment.php/action=view/articleid=143.html">more...</a></b></span></td>
+                    </tr>
+                  </table>  </td>
+                          </tr>
+                        </table></P></td>
+                    </tr>
+                  </table>
+                  <p>&nbsp;</p></td>
+              </tr>
+              <tr> 
+                <td valign="bottom" background="../../images/article_bg_left2.gif"><img src="../../images/article_bg_leftbase2.gif" width="82" height="156"></td>
+                <td width="87%" align="right" valign="bottom" background="../../images/articleBG.jpg"> 
+                  <table width="80%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td align="right" valign="top"><img src="../../images/bar3.gif" width="489" height="68"></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table>
+    <p>&nbsp;</p></td>
+  </tr>
+</table>
+
+  <table width="1007" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="168" rowspan="2" valign="bottom"><img src="../../images/footer_left_TOP2.gif" width="182" height="210"></td>
+      <td width="788" height="163">&nbsp;</td>
+      <td width="51" rowspan="2" valign="bottom"><img src="../../images/footer_RIGHT_TOP.gif" width="181" height="210"></td>
+    </tr>
+    <tr>
+      <td height="55"><img src="../../images/footer_COPYRIGHT.gif" width="644" height="56"></td>
+    </tr>
+    <tr> 
+      <td height="207"><img src="../../images/footer_left.gif" width="182" height="207"></td>
+      <td background="../../images/footer_BG.gif">&nbsp;</td>
+      <td><img src="../../images/footer_RIGHT.gif" width="182" height="206"></td>
+    </tr>
+  </table>
+</body>
+</html>
