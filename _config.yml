@@ -1,0 +1,5 @@
+defaults:
+  - scope:
+      path: "undertopia"
+    values:
+      index: "index.html"
